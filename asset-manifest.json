@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac7f4f06.css",
+    "main.js": "/static/js/main.5112199c.js",
+    "static/media/RRLogo2.png": "/static/media/RRLogo2.78e45c41c468e40530e3.png",
+    "static/media/hire.png": "/static/media/hire.40a7887e71af0b0a6be3.png",
+    "static/media/msg2.png": "/static/media/msg2.cd5b2ebefcfa3200bb0f.png",
+    "static/media/RRLogo.png": "/static/media/RRLogo.eca54311aad9b01143c3.png",
+    "static/media/bg2.jpg": "/static/media/bg2.a57981dbfab3ffe8591d.jpg",
+    "static/media/wordpress.jpg": "/static/media/wordpress.d9fc61de50f9e93ab72b.jpg",
+    "static/media/ui.jpg": "/static/media/ui.833f6b646c7639cf6009.jpg",
+    "static/media/logo.jpg": "/static/media/logo.c6d6897f5532882e0ff4.jpg",
+    "static/media/java.png": "/static/media/java.685c6ad7bbe82a29f9fd.png",
+    "index.html": "/index.html",
+    "main.ac7f4f06.css.map": "/static/css/main.ac7f4f06.css.map",
+    "main.5112199c.js.map": "/static/js/main.5112199c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac7f4f06.css",
+    "static/js/main.5112199c.js"
+  ]
+}
