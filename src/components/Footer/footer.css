@@ -1,0 +1,11 @@
+footer{
+    /* we can access element directly in CSS by element name --> footer{ } */
+    height: 4rem;
+    width: 100vw;
+    background: rgb(40,40,40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: small;
+}
