@@ -11,9 +11,9 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
-    "homepage": "https://rahulpersie66.github.io/Portfolio/",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://rahulpersie66.github.io/Portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
