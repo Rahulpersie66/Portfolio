@@ -33,7 +33,7 @@ const PortfolioNavbar = () => {
         {/* Mobile menu */}
         <img src={logo} alt="mobMenu" className='mobMenu' onClick = { () => setShowMenu(!showMenu)}></img>
         <div className="navMenu" style={{ display : showMenu ? 'flex' : 'none'} }>
-            <RouterLink to='\' className='listItem'>Home</RouterLink>
+            <RouterLink to='/' className='listItem'>Home</RouterLink>
             <Link  activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >About</Link>
             {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>{setShowMenu(false);} } >Portfolio</Link> */}
             <RouterLink to='/portfolio' className='listItem'>Portfolio</RouterLink>
