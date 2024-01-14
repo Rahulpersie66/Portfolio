@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a9da549a.css",
-    "main.js": "/Portfolio/static/js/main.d0173819.js",
+    "main.js": "/Portfolio/static/js/main.2735fb24.js",
     "static/media/RRLogo2.png": "/Portfolio/static/media/RRLogo2.78e45c41c468e40530e3.png",
     "static/media/hire.png": "/Portfolio/static/media/hire.40a7887e71af0b0a6be3.png",
     "static/media/msg2.png": "/Portfolio/static/media/msg2.cd5b2ebefcfa3200bb0f.png",
@@ -13,10 +13,10 @@
     "static/media/java.png": "/Portfolio/static/media/java.685c6ad7bbe82a29f9fd.png",
     "index.html": "/Portfolio/index.html",
     "main.a9da549a.css.map": "/Portfolio/static/css/main.a9da549a.css.map",
-    "main.d0173819.js.map": "/Portfolio/static/js/main.d0173819.js.map"
+    "main.2735fb24.js.map": "/Portfolio/static/js/main.2735fb24.js.map"
   },
   "entrypoints": [
     "static/css/main.a9da549a.css",
-    "static/js/main.d0173819.js"
+    "static/js/main.2735fb24.js"
   ]
 }
