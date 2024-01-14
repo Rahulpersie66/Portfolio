@@ -12,7 +12,7 @@ const Navbar  = ({ onWorksClick }) => {
 
     return (
         <nav className="navbar">
-            <RouterLink to='/Portfolio/'>
+            <RouterLink to='/portfolio/'>
                 <img src={logo} alt="Logo" className='logo' />
             </RouterLink>
             <div className="desktopMenu">
