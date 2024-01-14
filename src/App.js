@@ -23,7 +23,7 @@ function App() {
       <div className="App">
         <Routes>
         <Route
-            path="/"
+            path="/Portfolio/"
             element={
               <>
                 <Navbar/>
@@ -35,7 +35,7 @@ function App() {
               </>
             }
           />
-          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/portfolioPage/" element={<PortfolioPage />} />
         </Routes>
       </div>
     </Router>  

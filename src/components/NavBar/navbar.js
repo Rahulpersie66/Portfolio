@@ -12,14 +12,14 @@ const Navbar  = ({ onWorksClick }) => {
 
     return (
         <nav className="navbar">
-            <RouterLink to='/'>
+            <RouterLink to='/Portfolio/'>
                 <img src={logo} alt="Logo" className='logo' />
             </RouterLink>
             <div className="desktopMenu">
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Home</Link>
                 <Link  activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>About</Link>
                 {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem' onClick={() => onWorksClick()}>Portfolio</Link> */}
-                <RouterLink to='/portfolio' className='desktopMenuListItem'>Portfolio</RouterLink>
+                <RouterLink to='/portfolioPage/' className='desktopMenuListItem'>Portfolio</RouterLink>
                 <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Clients</Link>
             </div>
             <button className="desktopMenuBtn" onClick = {()=> {
@@ -35,7 +35,7 @@ const Navbar  = ({ onWorksClick }) => {
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Home</Link>
                 <Link  activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >About</Link>
                 {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>{setShowMenu(false);} } >Portfolio</Link> */}
-                <RouterLink to='/portfolio' className='listItem'>Portfolio</RouterLink>
+                <RouterLink to='/portfolioPage/' className='listItem'>Portfolio</RouterLink>
                 <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Clients</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Contact</Link>
             </div>
