@@ -24,6 +24,7 @@
     margin: 1rem;
     /* change pointer of mouse to cursor */
     cursor:pointer;
+    color: white;
 }
 
 .desktopMenuListItem:hover{
