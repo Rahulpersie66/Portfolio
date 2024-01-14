@@ -13,14 +13,14 @@ const PortfolioNavbar = () => {
 
     return (
         <nav className="navbar">
-        <RouterLink to='/'>
+        <RouterLink to='/Portfolio/'>
             <img src={logo} alt="Logo" className='logo' />
         </RouterLink>
         <div className="desktopMenu">
-            <RouterLink to='/' spy={true} offset={-50} className='desktopMenuListItem'>Home</RouterLink>
+            <RouterLink to='/Portfolio/' spy={true} offset={-50} className='desktopMenuListItem'>Home</RouterLink>
             <Link  activeClass='active' to='portfolioPageh1' spy={true} smooth={true} offset={-90} duration={500} className='desktopMenuListItem'>Work Experience</Link>
             {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem' onClick={() => onWorksClick()}>Portfolio</Link> */}
-            <RouterLink to='/portfolio' className='desktopMenuListItem'>Portfolio</RouterLink>
+            <RouterLink to='/portfolioPage/' className='desktopMenuListItem'>Portfolio</RouterLink>
             <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Clients</Link>
         </div>
         <button className="desktopMenuBtn" onClick = {()=> {
@@ -33,10 +33,10 @@ const PortfolioNavbar = () => {
         {/* Mobile menu */}
         <img src={logo} alt="mobMenu" className='mobMenu' onClick = { () => setShowMenu(!showMenu)}></img>
         <div className="navMenu" style={{ display : showMenu ? 'flex' : 'none'} }>
-            <RouterLink to='/' className='listItem'>Home</RouterLink>
+            <RouterLink to='/Portfolio/' className='listItem'>Home</RouterLink>
             <Link  activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >About</Link>
             {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>{setShowMenu(false);} } >Portfolio</Link> */}
-            <RouterLink to='/portfolio' className='listItem'>Portfolio</RouterLink>
+            <RouterLink to='/portfolioPage/' className='listItem'>Portfolio</RouterLink>
             <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Clients</Link>
             <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Contact</Link>
         </div>
