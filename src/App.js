@@ -7,6 +7,8 @@ import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 import PortfolioPage from "./components/PortfolioPage/portfoliopage";
 
+import Education from "./components/Education/education";
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -20,10 +22,10 @@ function App() {
 
   return (
     <Router>  
-      <div className="App">
+      <div className="App" path="/Portfolio/">
         <Routes>
         <Route
-            path="/portfolio/"
+            path="/Portfolio/"
             element={
               <>
                 <Navbar/>
@@ -36,6 +38,7 @@ function App() {
             }
           />
           <Route path="/portfolioPage/" element={<PortfolioPage />} />
+          <Route path ="/education" element = {<Education/>} />
         </Routes>
       </div>
     </Router>  

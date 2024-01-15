@@ -1,0 +1,108 @@
+.masterDegree{
+    width: 100vw;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.masterUnivTitle{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    /* justify-content: center; */
+}
+
+.gpaGetValue{
+  color:bisque;
+}
+
+/* .gpaOutValue{
+  color:cadetblue;
+} */
+
+.logoUniv{
+    width: 20%;
+    height: 4rem;
+    padding-top: 0.2rem;
+    padding-right: 1rem;
+}
+.logoUnivJP{
+    width: 20%;
+    height: 7rem;
+    padding-top: 0.2rem;
+    padding-right: 1rem;
+}
+.masterUniv{
+    width: 60%;
+    color: bisque;
+}
+
+.masterDate{
+    display: flex;
+    width: 20%;
+    padding-top: 0.8rem;
+    direction: right;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: auto;
+    border-color: aliceblue;
+    border-radius: 2px;
+    
+  }
+  
+  th{
+    background-color: rgb(50,50,50);
+  }
+
+  th,td{
+    border: 1px solid antiquewhite;
+    text-align: center;
+  }
+
+  .courseTable {
+    width: 80%;
+    margin: 0 auto; /* This centers the block horizontally */
+    text-align: center; /* This centers the text inside the block */
+  }
+
+  .coursesTaken{
+    width: 90%;
+  }
+
+  .courseGrade{
+    background-color: rgb(35,35,35);
+    padding: 2rem;
+    border-radius: 5rem;
+  }
+
+  .coursePerformance:hover{
+    color: yellow;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 720px) {
+    .masterUnivTitle{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+    }
+    .masterUniv{
+      width: 90%;
+      color: bisque;
+      font-size:x-large;
+  }
+  
+  .masterDate{
+      display: flex;
+      width: 90%;
+      padding-top: 0.8rem;
+      direction: right;
+  }
+
+  }
