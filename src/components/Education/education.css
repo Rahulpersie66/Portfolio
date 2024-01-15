@@ -106,3 +106,31 @@ table {
   }
 
   }
+
+  @media screen and (max-width: 440px) {
+    .masterUnivTitle{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+    }
+    .masterUniv{
+      width: 100%;
+      color: bisque;
+      font-size:x-large;
+  }
+  
+  .masterDate{
+      display: flex;
+      width: 90%;
+      padding-top: 0.8rem;
+      direction: right;
+  }
+
+  .logoUniv, .logoUnivJP{
+    width: 40%;
+  }
+
+  /* .courseTable{
+    width: 20%;
+  } */
+  }
