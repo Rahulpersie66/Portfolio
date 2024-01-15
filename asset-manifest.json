@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bdb55556.css",
-    "main.js": "/Portfolio/static/js/main.27a52843.js",
+    "main.css": "/Portfolio/static/css/main.7841e909.css",
+    "main.js": "/Portfolio/static/js/main.d8cb403e.js",
     "static/media/RRLogo2.png": "/Portfolio/static/media/RRLogo2.78e45c41c468e40530e3.png",
     "static/media/hire.png": "/Portfolio/static/media/hire.40a7887e71af0b0a6be3.png",
     "static/media/msg2.png": "/Portfolio/static/media/msg2.cd5b2ebefcfa3200bb0f.png",
     "static/media/RRLogo.png": "/Portfolio/static/media/RRLogo.eca54311aad9b01143c3.png",
+    "static/media/IMG_20240115_132427__01.jpg": "/Portfolio/static/media/IMG_20240115_132427__01.b4179994ac14fcf37214.jpg",
     "static/media/bg2.jpg": "/Portfolio/static/media/bg2.a57981dbfab3ffe8591d.jpg",
     "static/media/wordpress.jpg": "/Portfolio/static/media/wordpress.d9fc61de50f9e93ab72b.jpg",
     "static/media/ui.jpg": "/Portfolio/static/media/ui.833f6b646c7639cf6009.jpg",
@@ -14,11 +15,11 @@
     "static/media/logo.jpg": "/Portfolio/static/media/logo.c6d6897f5532882e0ff4.jpg",
     "static/media/java.png": "/Portfolio/static/media/java.685c6ad7bbe82a29f9fd.png",
     "index.html": "/Portfolio/index.html",
-    "main.bdb55556.css.map": "/Portfolio/static/css/main.bdb55556.css.map",
-    "main.27a52843.js.map": "/Portfolio/static/js/main.27a52843.js.map"
+    "main.7841e909.css.map": "/Portfolio/static/css/main.7841e909.css.map",
+    "main.d8cb403e.js.map": "/Portfolio/static/js/main.d8cb403e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdb55556.css",
-    "static/js/main.27a52843.js"
+    "static/css/main.7841e909.css",
+    "static/js/main.d8cb403e.js"
   ]
 }
