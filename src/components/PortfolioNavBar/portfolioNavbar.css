@@ -1,0 +1,36 @@
+.portfolioNavbar{
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    background: rgb(30,30,30);
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    display: flex;
+    /* align items in the center of the box */
+    align-items: center;
+    /* if justify content to center then the content is in center of the center */
+    /* but instead of that justify-content:space-between will make things logo space content space button search --- in navbar */
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    color:white;
+}
+
+@media Screen and (max-width:780px){
+    .portfolioNavbar{
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width:779px) {
+    .mobMenu{
+        display: flex;
+    }
+    .desktopMenu{
+        display: none;
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+}

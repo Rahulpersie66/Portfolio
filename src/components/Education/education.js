@@ -2,7 +2,7 @@ import './education.css';
 import PortfolioNavbar from '../PortfolioNavBar/portfolioNavbar';
 import BU from  '../../assests/BinghamtonUniversity.jpg'
 import JP from '../../assests/juit_by_jaypeeit_dgafpv5-fullview.jpg'
-
+import Footer from '../Footer/footer';
 import React from 'react'
 
 const Education = () => {
@@ -185,7 +185,7 @@ const Education = () => {
                     </table>
                 </div>
             </div>
-            
+            <Footer/>
         </div>
     )
 }

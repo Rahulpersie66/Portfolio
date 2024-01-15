@@ -12,7 +12,7 @@ const PortfolioNavbar = () => {
 
 
     return (
-        <nav className="navbar">
+        <nav className="portfolioNavbar">
         <RouterLink to='/Portfolio/'>
             <img src={logo} alt="Logo" className='logo' />
         </RouterLink>

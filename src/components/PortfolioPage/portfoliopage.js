@@ -1,17 +1,26 @@
 import './portfoliopage.css'
 import React from 'react';
+import company1 from '../../assests/nablasol.png';
+import company2 from '../../assests/IMG_20240115_132427__01.jpg';
 import PortfolioNavbar from '../PortfolioNavBar/portfolioNavbar';
+import Footer from '../Footer/footer';
 
 const PortfolioPage = () => {
     return (
         <div className="PortfolioPage">
         <PortfolioNavbar/>
-        <button className="printPage" onClick={() => window.print()}>Print Page</button>
-        <br></br><h1 id='portfolioPageh1'>Work Experience:</h1>
+        {/* <button className="printPage" onClick={() => window.print()}>Print Page</button> */}
+        {/* <br></br> */}
+        <div className='PortfolioWorkExp'>
+        <h1 id='portfolioPageh1'>Work Experience:-</h1>
+
         <div className ="portfolioPage">
           <div className='workSkills'>
             <div className='company'>
-              <span className='companyTitle'><h2 className='companyName'>Nablasol Digital Solution Pvt. Ltd.</h2><i className='dateOfCompany'>Dec 2022 - Mar 2023</i></span><br></br> 
+              <div className = 'companyDemo'>
+              <img className='compLogo' src={company1} alt='Nablasol Digital Solutions Pvt. Ltd.'></img>
+              <span className='companyTitle'><h2 className='companyName'>Nablasol Digital Solution Pvt. Ltd.</h2><i className='dateOfCompany'>Dec 2022 - Mar 2023</i></span>
+              </div><br></br> 
               <span className='skillCompany'><b>Skill:</b> Php, Javascript, Mysql, MVC Architecture, Object Oriented Programming, Wordpress, SugarCrm Framework, Ajax, jQuery, HTML5, CSS3, Effective Communication, Adaptibility, Creative Thinking</span>
               <br></br>
               <br></br>
@@ -25,7 +34,10 @@ const PortfolioPage = () => {
           <div className='workSkills'>
             {/* Clerisy Solution */}
             <div className='company'>
-              <span className='companyTitle'><h2 className='companyName'>Clerisy Solution Pvt. Ltd.</h2><i className='dateOfCompany'>Dec 2022 - Mar 2023</i></span><br></br> 
+            <div className = 'companyDemo'>
+              <img className='compLogo' src={company2} alt='Nablasol Digital Solutions Pvt. Ltd.'></img>
+              <span className='companyTitle'><h2 className='companyName'>Clerisy Solution Pvt. Ltd.</h2><i className='dateOfCompany'>Dec 2022 - Mar 2023</i></span></div>
+              <br></br> 
               <span className='skillCompany'><b>Skill:</b> Php, Javascript, Java, MySQL, MVC Architecture, Object Oriented Programming, Wordpress, CodeIgniter Framework, Ajax, jQuery, HTML5, CSS3, Effective Communication, Analysis of database, Creative Thinking</span>
               <br></br>
               <br></br>
@@ -36,7 +48,8 @@ In addition to performance enhancements, I engineered user-friendly websites, ac
             </div> 
           </div>
         </div>
-
+        </div>
+        <Footer/>
       </div>
     )
 }

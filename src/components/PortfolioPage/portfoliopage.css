@@ -1,9 +1,42 @@
 .PortfolioPage{
     width: 100vw;
-    max-width: 80vw;
+    max-width: 90vw;
     justify-content: center;
     /* display: flex;
     flex-wrap: wrap; */
+}
+
+.PortfolioWorkExp{
+    width: 100%;
+    justify-content: center;
+    margin: 0 2rem;
+}
+
+
+#portfolioPageh1{
+    width: 100%;
+    color: white;
+    /* background-color: rgb(50,50,50); */
+    margin: auto;
+    border:none;
+    padding: 1rem;
+    border-radius: 2rem;
+    justify-content: center;
+    font-size: xxx-large;
+    /* text-align: center; */
+}
+
+.portfolioPage{
+    width: 100%;
+    color: white;
+    background-color: rgb(40,40,40);
+    margin: 0 auto;
+    border:none;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+        
 }
 
 .workSkills{
@@ -14,50 +47,115 @@
     
     
 }
-#portfolioPageh1{
-    width: 100%;
-    color: white;
-    /* background-color: rgb(50,50,50); */
-    margin: 2rem 5rem;
-    border:none;
-    padding: 1rem;
-    border-radius: 2rem;
-}
 
-.printPage, .portfolioPage{
-    width: 100%;
-    color: white;
-    background-color: rgb(40,40,40);
-    margin: 2rem 5rem;
-    border:none;
-    padding: 1rem;
-    border-radius: 2rem;
-        
-}
-
-
-.printPage:hover{
+/* .printPage:hover{
     color: yellow;
-}
+} */
 
-.company{
+.companyDemo{
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
+    width:100%;
 }
 
+.compLogo{
+    height: 3.5rem;
+    width:20%;
+}
 .companyTitle{
+    width:80%;
     display: flex;
     flex-direction: row;
 }
-
 .companyName{
     width: 75%;
-    margin: 0;
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 0 0.5rem;
 }
 
 .dateOfCompany{
     width: 25%;
     padding-top: 0.5rem;
     direction: rtl;
+}
+/* .company{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} */
+
+/* .companyTitle{
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .companyName{
+    width: 75%;
+    margin: 0;
+} */
+
+
+@media  Screen and (max-width:932px) {
+    .companyDemo{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    
+    .compLogo{
+        height: 3.5rem;
+        width:30%;
+    }
+    .companyTitle{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .companyName{
+        width: 75%;
+        font-size: xx-large;
+        font-weight: 800;
+        padding: 0 0.5rem;
+    }
+    
+    .dateOfCompany{
+        width: 25%;
+        padding-top: 0.5rem;
+        direction: rtl;
+    }
+    
+}
+
+@media screen and (max-width:752px) {
+
+    .companyTitle{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .companyName{
+        width: 100%;
+        font-size: xx-large;
+        font-weight: 800;
+        padding: 0.5rem 0rem;
+    }
+    
+    .dateOfCompany{
+        width: 100%;
+        padding-top: 0.5rem;
+        direction: ltr;
+    }
+    
+}
+
+
+@media screen and (max-width:540px){
+    #portfolioPageh1{
+        font-size: xx-large;
+    }
+
+    .companyName{
+        font-size: x-large;
+    }
 }
