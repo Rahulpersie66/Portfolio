@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7841e909.css",
-    "main.js": "/Portfolio/static/js/main.d8cb403e.js",
+    "main.css": "/Portfolio/static/css/main.725378a6.css",
+    "main.js": "/Portfolio/static/js/main.f1bb3513.js",
     "static/media/RRLogo2.png": "/Portfolio/static/media/RRLogo2.78e45c41c468e40530e3.png",
     "static/media/hire.png": "/Portfolio/static/media/hire.40a7887e71af0b0a6be3.png",
     "static/media/msg2.png": "/Portfolio/static/media/msg2.cd5b2ebefcfa3200bb0f.png",
@@ -15,11 +15,11 @@
     "static/media/logo.jpg": "/Portfolio/static/media/logo.c6d6897f5532882e0ff4.jpg",
     "static/media/java.png": "/Portfolio/static/media/java.685c6ad7bbe82a29f9fd.png",
     "index.html": "/Portfolio/index.html",
-    "main.7841e909.css.map": "/Portfolio/static/css/main.7841e909.css.map",
-    "main.d8cb403e.js.map": "/Portfolio/static/js/main.d8cb403e.js.map"
+    "main.725378a6.css.map": "/Portfolio/static/css/main.725378a6.css.map",
+    "main.f1bb3513.js.map": "/Portfolio/static/js/main.f1bb3513.js.map"
   },
   "entrypoints": [
-    "static/css/main.7841e909.css",
-    "static/js/main.d8cb403e.js"
+    "static/css/main.725378a6.css",
+    "static/js/main.f1bb3513.js"
   ]
 }
