@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <section id='skills'>
             <span className='skillTitle'>What I do?</span>
-            <span className='skillDesc'>I am skilled and passionate web designer with knowledge of pHp, wordpress and experience in Angular, React framework.</span>
+            <span className='skillDesc'>I'm a dedicated full-stack developer pursuing my Master's in Computer Science at Binghamton University. With hands-on experience in Java, C, PHP, and frameworks like SpringBoot, Angular, and CodeIgniter, I specialize in robust backend logic and API development. My skills extend to comprehensive website design, blending frontend and backend expertise. Beyond technical proficiency, I offer valuable soft skills—teamwork, consistency, critical thinking, problem-solving, leadership, and effective issue management.</span>
             <div className='skillBars'>
                 {/* Skill Bar 1 */}
                 <div className='skillBar'>
@@ -20,7 +20,7 @@ const Skills = () => {
                 </div>
                 {/* SKill Bar 2 */}
                 <div className='skillBar'>
-                    <img src={java} alt='' className='skillBarImg'></img>
+                    <img src={wordpress} alt='' className='skillBarImg'></img>
                     <div className='skillBarText'>
                         <h2>Wordpress</h2>
                         <p>1.5 years of working on wordpress.</p>
@@ -28,7 +28,7 @@ const Skills = () => {
                 </div>
                 {/* Skill Bar 3 */}
                 <div className='skillBar'>
-                    <img src={wordpress} alt='' className='skillBarImg'></img>
+                    <img src={java} alt='' className='skillBarImg'></img>
                     <div className='skillBarText'>
                         <h2>JAVA</h2>
                         <p>Have great logic, know how to build logic.</p>

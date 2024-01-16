@@ -60,6 +60,14 @@
         height: 50%;
         width: 60%;
     }
+    .skillBar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
 }
 
 @media screen and (max-width:660px){
