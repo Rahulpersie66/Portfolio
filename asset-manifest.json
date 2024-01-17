@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.725378a6.css",
-    "main.js": "/Portfolio/static/js/main.f1bb3513.js",
+    "main.css": "/Portfolio/static/css/main.fc460b89.css",
+    "main.js": "/Portfolio/static/js/main.c871bfee.js",
     "static/media/RRLogo2.png": "/Portfolio/static/media/RRLogo2.78e45c41c468e40530e3.png",
     "static/media/hire.png": "/Portfolio/static/media/hire.40a7887e71af0b0a6be3.png",
     "static/media/msg2.png": "/Portfolio/static/media/msg2.cd5b2ebefcfa3200bb0f.png",
@@ -11,15 +11,18 @@
     "static/media/wordpress.jpg": "/Portfolio/static/media/wordpress.d9fc61de50f9e93ab72b.jpg",
     "static/media/ui.jpg": "/Portfolio/static/media/ui.833f6b646c7639cf6009.jpg",
     "static/media/BinghamtonUniversity.jpg": "/Portfolio/static/media/BinghamtonUniversity.9cae43874275cdd03814.jpg",
+    "static/media/insta.jpg": "/Portfolio/static/media/insta.97232b4f9b2e9090b943.jpg",
     "static/media/juit_by_jaypeeit_dgafpv5-fullview.jpg": "/Portfolio/static/media/juit_by_jaypeeit_dgafpv5-fullview.dc3ed22df3d8aaaf4a3b.jpg",
     "static/media/logo.jpg": "/Portfolio/static/media/logo.c6d6897f5532882e0ff4.jpg",
+    "static/media/yt.jpg": "/Portfolio/static/media/yt.7ac06eb1ac52be5f3efe.jpg",
+    "static/media/github.jpg": "/Portfolio/static/media/github.534a9c9e5a36a053d90d.jpg",
     "static/media/java.png": "/Portfolio/static/media/java.685c6ad7bbe82a29f9fd.png",
     "index.html": "/Portfolio/index.html",
-    "main.725378a6.css.map": "/Portfolio/static/css/main.725378a6.css.map",
-    "main.f1bb3513.js.map": "/Portfolio/static/js/main.f1bb3513.js.map"
+    "main.fc460b89.css.map": "/Portfolio/static/css/main.fc460b89.css.map",
+    "main.c871bfee.js.map": "/Portfolio/static/js/main.c871bfee.js.map"
   },
   "entrypoints": [
-    "static/css/main.725378a6.css",
-    "static/js/main.f1bb3513.js"
+    "static/css/main.fc460b89.css",
+    "static/js/main.c871bfee.js"
   ]
 }
