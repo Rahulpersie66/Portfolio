@@ -2,6 +2,11 @@ import React, {useRef} from 'react';
 import './contact.css';
 import logo from '../../assests/logo.jpg'
 import emailjs from '@emailjs/browser';
+import insta from '../../assests/insta.jpg';
+import linkedin from '../../assests/in.png';
+import github from '../../assests/github.jpg';
+import youtube from '../../assests/yt.jpg';
+import {Link as RouterLink} from 'react-router-dom';
 
 const Contact = () => {
     // to send email
@@ -24,8 +29,8 @@ const Contact = () => {
     return (
         <section id='contactPage'>
             <div id='clients'>
-                <h1 className='contactPageTitle'>My Clients</h1>
-                <p className='clientsDesc'>This is my client description.</p>
+                <h1 className='contactPageTitle'>My Projects</h1>
+                <p className='clientsDesc'>These are my some projects, more projects on <RouterLink to='/portfolioPage/' className='moreProjects'>Portfolio</RouterLink> section.</p>
                 <div className='clientsImgs'>
                     <img src={logo} alt='Client' className='clientsImg'/>
                     <img src={logo} alt='Client' className='clientsImg'/>
@@ -44,10 +49,10 @@ const Contact = () => {
                     <textarea name='message' rows='5' placeholder='Your Message' className='msg'></textarea>
                     <button className='submitBtn' type='submit' value='Send'>Submit</button>
                     <div className='links'>
-                        <img src={logo} alt='FaceBook' className='link'/>
-                        <img src={logo} alt='Twitter' className='link'/>
-                        <img src={logo} alt='Youtube' className='link'/>
-                        <img src={logo} alt='Instagram' className='link'/>
+                        <img src={linkedin} alt='LinkedIn' className='link'/>
+                        <img src={github} alt='Github' className='link'/>
+                        <img src={youtube} alt='Youtube' className='link'/>
+                        <img src={insta} alt='Instagram' className='link'/>
                     </div>
                 </form>
             </div>

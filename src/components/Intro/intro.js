@@ -4,6 +4,8 @@ import { Link } from 'react-scroll';
 import bg from '../../assests/bg2.jpg';
 import hire from '../../assests/hire.png';
 
+
+
 const intro = () => {
     return (
         <section id="intro">

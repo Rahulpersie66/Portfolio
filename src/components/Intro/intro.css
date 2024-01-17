@@ -91,7 +91,7 @@
     .introPara{
         font-size: small;
     }
-
+    
 }
 
 @media  screen and (max-width:625px) {
@@ -157,7 +157,7 @@
     }
     .introContent{
         font-size: medium;
-        height: 125vh;
+        height: 145vh;
     }
     .introPara{
         font-size: xx-small;
