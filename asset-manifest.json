@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fc460b89.css",
-    "main.js": "/Portfolio/static/js/main.c871bfee.js",
+    "main.css": "/Portfolio/static/css/main.459e435a.css",
+    "main.js": "/Portfolio/static/js/main.0dac4574.js",
     "static/media/RRLogo2.png": "/Portfolio/static/media/RRLogo2.78e45c41c468e40530e3.png",
     "static/media/hire.png": "/Portfolio/static/media/hire.40a7887e71af0b0a6be3.png",
     "static/media/msg2.png": "/Portfolio/static/media/msg2.cd5b2ebefcfa3200bb0f.png",
     "static/media/RRLogo.png": "/Portfolio/static/media/RRLogo.eca54311aad9b01143c3.png",
     "static/media/IMG_20240115_132427__01.jpg": "/Portfolio/static/media/IMG_20240115_132427__01.b4179994ac14fcf37214.jpg",
+    "static/media/primeicons.svg": "/Portfolio/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/bg2.jpg": "/Portfolio/static/media/bg2.a57981dbfab3ffe8591d.jpg",
+    "static/media/primeicons.eot": "/Portfolio/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/Portfolio/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/Portfolio/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
     "static/media/wordpress.jpg": "/Portfolio/static/media/wordpress.d9fc61de50f9e93ab72b.jpg",
     "static/media/ui.jpg": "/Portfolio/static/media/ui.833f6b646c7639cf6009.jpg",
     "static/media/BinghamtonUniversity.jpg": "/Portfolio/static/media/BinghamtonUniversity.9cae43874275cdd03814.jpg",
+    "static/media/primeicons.woff2": "/Portfolio/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "static/media/insta.jpg": "/Portfolio/static/media/insta.97232b4f9b2e9090b943.jpg",
     "static/media/juit_by_jaypeeit_dgafpv5-fullview.jpg": "/Portfolio/static/media/juit_by_jaypeeit_dgafpv5-fullview.dc3ed22df3d8aaaf4a3b.jpg",
     "static/media/logo.jpg": "/Portfolio/static/media/logo.c6d6897f5532882e0ff4.jpg",
@@ -18,11 +23,11 @@
     "static/media/github.jpg": "/Portfolio/static/media/github.534a9c9e5a36a053d90d.jpg",
     "static/media/java.png": "/Portfolio/static/media/java.685c6ad7bbe82a29f9fd.png",
     "index.html": "/Portfolio/index.html",
-    "main.fc460b89.css.map": "/Portfolio/static/css/main.fc460b89.css.map",
-    "main.c871bfee.js.map": "/Portfolio/static/js/main.c871bfee.js.map"
+    "main.459e435a.css.map": "/Portfolio/static/css/main.459e435a.css.map",
+    "main.0dac4574.js.map": "/Portfolio/static/js/main.0dac4574.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc460b89.css",
-    "static/js/main.c871bfee.js"
+    "static/css/main.459e435a.css",
+    "static/js/main.0dac4574.js"
   ]
 }
