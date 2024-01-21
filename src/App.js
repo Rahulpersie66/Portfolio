@@ -6,6 +6,8 @@ import Works from './components/Works/works';
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 import PortfolioPage from "./components/PortfolioPage/portfoliopage";
+import Projects from './components/Projects/projects';
+import MySkills from './components/MySkills/mySkills';
 
 import Education from "./components/Education/education";
 
@@ -39,6 +41,8 @@ function App() {
           />
           <Route path="/portfolioPage/" element={<PortfolioPage />} />
           <Route path ="/education" element = {<Education/>} />
+          <Route path ="/projects" element={<Projects/>} />
+          <Route path ="/Skills" element={<MySkills/>} />
         </Routes>
       </div>
     </Router>  

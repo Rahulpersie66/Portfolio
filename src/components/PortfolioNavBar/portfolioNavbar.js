@@ -22,7 +22,7 @@ const PortfolioNavbar = () => {
             {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem' onClick={() => onWorksClick()}>Portfolio</Link> */}
             <RouterLink to='/portfolioPage/' className='desktopMenuListItem'>Portfolio</RouterLink>
             <RouterLink to='/education/' activeClass='active' aria-current='page' className='desktopMenuListItem'>Education</RouterLink>
-            <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Clients</Link>
+            <RouterLink activeClass='active' to='/projects' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Projects</RouterLink>
         </div>
         <button className="desktopMenuBtn" onClick = {()=> {
             document.getElementById('contact').scrollIntoView({behavior:'smooth'});
@@ -39,7 +39,7 @@ const PortfolioNavbar = () => {
             {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>{setShowMenu(false);} } >Portfolio</Link> */}
             <RouterLink to='/portfolioPage/' className='listItem'>Portfolio</RouterLink>
             <RouterLink  activeClass='active' to='/education/' className='listItem'>Education</RouterLink>
-            <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Clients</Link>
+            <RouterLink activeClass='active' to='/projects' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Projects</RouterLink>
             <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Contact</Link>
         </div>
     </nav>

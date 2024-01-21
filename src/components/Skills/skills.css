@@ -55,6 +55,254 @@
     font-weight: 200;
 }
 
+.skillTechnical{
+    width: 90%;
+}
+
+.skills_content:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.pi-caret-down:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+.skills_header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background: aqua; */
+    text-align: end;
+    margin-bottom: 1rem;
+}
+.pi{
+    /* display: block; */
+    width: 10%;
+    /* background-color: bisque; */
+    text-align: center;
+    padding-top: 0.5%;
+    font-size: 2rem;
+    
+}
+
+.skill_header_part1{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    text-align: start;
+}
+
+.progressBarContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    /* background-color: aqua; */
+    padding-top:1rem;
+}
+
+.progressBarBox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 0.35rem;
+    background-color: rgb(45,45,45);
+    border-radius: 2rem;
+}
+.progressBar{
+    background-color: whitesmoke;
+    width:67%;
+    border-radius: 2rem;
+}
+
+.qualification{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* background-color: aquamarine; */
+}
+
+.qualStudJob{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin: auto;
+    /* background-color: aqua; */
+    
+}
+
+.eduactionQual{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem;
+    justify-content: center;
+    /* background-color: bisque; */
+}
+.eduactionQual:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.jobQual{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.jobQual:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.pi-book, .pi-briefcase{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    /* background-color: black; */
+    font-size: large;
+
+}
+
+
+.qualifiactionHeaderSpan, .skills_subtitle{
+    font-size: small;
+}
+
+
+/* .educationTrack{
+    width: 50%;
+    background-color: blanchedalmond;
+    
+} */
+/* .masterClass{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.masterUnivLeft{
+    width:47.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: start;
+}
+.masterUnivMiddle{
+    width: 10%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+
+
+.linetravelTime{
+    border-right: 1px solid burlywood;
+    height: 20rem;
+    background-color: wheat;
+    margin: 20px 0;
+    display: flex;
+    align-content: center;
+}
+
+.masterUnivRight{
+    width: 47.5%;
+    background-color: brown;
+
+}
+
+.datePass{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+}
+.pi-calendar{
+    width:10%;
+    margin-top: 1%;
+    font-size: small;
+}
+.masterDuration{
+    width:90%;
+    
+}
+.masterDegreeDetails{
+    background-color: blueviolet;
+}
+
+.masterUnivName{
+    font-size: medium;
+}
+
+.timeline{
+    /* position: relative; */
+    /* background-color: aquamarine; */
+    /* width:60%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    position: relative;
+    width: 47%;
+    background-color: rgb(50,50,50);
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+
+    text-align: start;
+}
+
+.text-box{
+    
+}
+
+.left-container{
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 47%;
+    margin-left: -0.5rem;
+}
+
+.right-container{
+    left: 50%;
+}
+
+.circle-left{
+    font-size: 1rem;
+    /* display: flex; */
+    width:10%;
+    /* margin-right: -6.4%; */
+    /* z-index: 1; */
+    
+}
+
+.circle-right{
+    font-size: 1rem;
+    /* position: relative; */
+    width:10%;
+    /* margin-left: -15%; */
+    /* z-index: 1; */
+}
+
+/* Vertical line */
+.timeline::after{
+    content: '';
+    position: absolute;
+    width:0.40rem;
+    height: 100%;
+    background-color: aqua;
+    top:0;
+    margin-left: 47.7%;
+}
+
 @media screen and (max-width:916px){
     .skillBarImg{
         height: 50%;
@@ -67,6 +315,13 @@
         align-items: center;
         text-align: center;
         
+    }
+    .eduactionQual p, .jobQual p{
+        font-size: medium;
+    }
+
+    .eduactionQual i, .jobQual i{
+        font-size: medium;
     }
 }
 
@@ -84,4 +339,72 @@
     .skillBarText>p{
         font-size: 86%;
     }
+    .pi{
+        padding-top: 0.5rem;
+        font-size: large;
+    }
+    .qualification{
+        width: 100%;
+    }
+
+    .qualStudJob{
+        margin: 0;
+    }
+
+    .educationQualHeader, .jobQualHeader{
+        padding-top: 0.4rem;
+    }
+
+    
+    .pi-book, .pi-briefcase{
+        font-size: medium;
+    
+    }
+   
+    
+ 
 }
+
+
+@media screen and (max-width:400px){
+
+
+    .skills_title{
+        font-size: medium;
+    }
+    .skills_subtitle{
+        font-size: smaller;
+    }
+    .qualficationHeaderPara{
+        font-size: large;
+    }
+    .masterUnivName{
+        font-size: x-small;
+    }
+    .masterDegreeDetails{
+        font-size: xx-small;
+    }
+    .masterDuration{
+        font-size: xx-small;
+    }
+    .pi{
+        padding-top: 0.5rem;
+        font-size: x-small;
+    }
+    .timeline{
+        width: 100%;
+    }
+    .qualStudJob{
+        width: 60%;
+    }
+    .pi-book, .pi-briefcase{
+        font-size: x-small;
+    
+    }
+    .educationQualHeader, .jobQualHeader{
+        font-size: small;
+    }
+}
+
+
+
