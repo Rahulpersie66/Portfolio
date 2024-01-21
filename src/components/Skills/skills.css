@@ -76,7 +76,7 @@
     text-align: end;
     margin-bottom: 1rem;
 }
-.pi{
+.pi-skill{
     /* display: block; */
     width: 10%;
     /* background-color: bisque; */
@@ -240,10 +240,15 @@
     font-size: medium;
 }
 
+.timelineBox{
+    width: 100%;
+    /* margin: 1rem 0; */
+    padding-bottom: 2rem;
+}
 .timeline{
     /* position: relative; */
     /* background-color: aquamarine; */
-    /* width:60%; */
+    width:100%;
     display: flex;
     flex-direction: column;
 }
@@ -251,16 +256,12 @@
 .container{
     position: relative;
     width: 47%;
-    background-color: rgb(50,50,50);
+    /* background-color: rgb(50,50,50); */
     border-radius: 2rem;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
+    /* padding: 1rem; */
+    /* margin-bottom: 1.5rem; */
 
     text-align: start;
-}
-
-.text-box{
-    
 }
 
 .left-container{
@@ -268,7 +269,6 @@
     display: flex;
     flex-direction: column-reverse;
     width: 47%;
-    margin-left: -0.5rem;
 }
 
 .right-container{
@@ -278,29 +278,29 @@
 .circle-left{
     font-size: 1rem;
     /* display: flex; */
-    width:10%;
-    /* margin-right: -6.4%; */
-    /* z-index: 1; */
+    /* width:10%; */
+    margin-left: 102.2%;
+    z-index: 1;
     
 }
 
 .circle-right{
     font-size: 1rem;
     /* position: relative; */
-    width:10%;
-    /* margin-left: -15%; */
-    /* z-index: 1; */
+    /* width:10%; */
+    margin-left: -13.7%;
+    z-index: 1;
 }
 
 /* Vertical line */
 .timeline::after{
     content: '';
     position: absolute;
-    width:0.40rem;
-    height: 100%;
+    width:0.26rem;
+    height: 34.9%;
     background-color: aqua;
-    top:0;
-    margin-left: 47.7%;
+    margin-left: 31.7%;
+    transform: translateX(-50%);
 }
 
 @media screen and (max-width:916px){
@@ -329,6 +329,19 @@
     .skillBarText{
         font-size: 70%;
     }
+
+    .masterUnivName{
+        /* font-size: ; */
+    }
+    .masterDegreeDetails{
+        font-size: small;
+    }
+    .masterDuration{
+        font-size: x-small;
+    }
+    .pi-calendar{
+        font-size: smaller;
+    }
 }
 
 @media screen and (max-width:536px){
@@ -339,7 +352,7 @@
     .skillBarText>p{
         font-size: 86%;
     }
-    .pi{
+    .pi-skill{
         padding-top: 0.5rem;
         font-size: large;
     }
@@ -387,7 +400,7 @@
     .masterDuration{
         font-size: xx-small;
     }
-    .pi{
+    .pi-skill{
         padding-top: 0.5rem;
         font-size: x-small;
     }

@@ -24,7 +24,125 @@ const toggleVisiblity3 = () => {
     setIsVisible3(!isVisible3);
 }
 
+// const educationTimeline = 
+// <div className='timelineBox'>
+//     <div className='timeline'>
+//         <div className='container left-container'>
+//             <div className='text-box'>
+//                 <h2 className='masterUnivName'>Binghamton University, Thomas J. Watson College of Engineering and Applied Science</h2>
+//                 <span className='masterDegreeDetails'>Master of Science in Computer Science</span>
+//                 <div className='datePass'>
+//                     <i className='pi pi-calendar'></i>
+//                     <p className='masterDuration'>Aug 2023 - May 2025</p>
+//                 </div>
+//             </div>
+//             <i className='pi pi-circle-fill circle-left'></i>
+//         </div>
+//     </div>
 
+//     <div className='timeline'>
+//         <div className='container right-container'>
+//         <i className='pi pi-circle-fill circle-right'></i>
+//             <div className='text-box'>
+//                 <h2 className='masterUnivName'>Jaypee University Of Information, Technology</h2>
+//                 <span className='masterDegreeDetails'>Bachelors of Technology in Computer Science Engineering</span>
+//                 <div className='datePass'>
+//                     <i className='pi pi-calendar'></i>
+//                     <p className='masterDuration'>Aug 2016 - Jul 2020</p>
+//                 </div>
+//             </div>
+//         </div>
+//     </div>
+
+//     <div className='timeline'>
+//         <div className='container left-container'>
+//             <div className='text-box'>
+//                 <h2 className='masterUnivName'>Kendriya Vidyalaya Hamirpur</h2>
+//                 <span className='masterDegreeDetails'>Secondary School</span>
+//                 <div className='datePass'>
+//                     <i className='pi pi-calendar'></i>
+//                     <p className='masterDuration'>Apr 2013 - May 2015</p>
+//                 </div>
+//             </div>
+//             <i className='pi pi-circle-fill circle-left'></i>
+//         </div>
+//     </div>
+
+//     <div className='timeline'>
+//         <div className='container right-container'>
+//             <i className='pi pi-circle-fill circle-right'></i>
+//             <div className='text-box'>
+//                 <h2 className='masterUnivName'>Kendriya Vidyalaya Nadaun</h2>
+//                 <span className='masterDegreeDetails'>Primary School</span>
+//                 <div className='datePass'>
+//                     <i className='pi pi-calendar'></i>
+//                     <p className='masterDuration'>Apr 2003 - Mar 2013</p>
+//                 </div>
+//             </div>
+//         </div>
+//     </div>
+
+// </div>;
+
+// const jobTimeline = 
+// <div className='timelineBox'>
+//     <div className='timeline'>
+//         <div className='container left-container'>
+//             <div className='text-box'>
+//                 <h2 className='masterUnivName'>Nablasol Digital Solution Pvt. Ltd.</h2>
+//                 <span className='masterDegreeDetails'>Software Development Intern</span>
+//                 <div className='datePass'>
+//                     <i className='pi pi-calendar'></i>
+//                     <p className='masterDuration'>Dec 2022 - Mar 2023</p>
+//                 </div>
+//             </div>
+//             <i className='pi pi-circle-fill circle-left'></i>
+//         </div>
+//     </div>
+
+//     <div className='timeline'>
+//         <div className='container right-container'>
+//         <i className='pi pi-circle-fill circle-right'></i>
+//             <div className='text-box'>
+//                 <h2 className='masterUnivName'>Clerisy Solution Pvt. Ltd.</h2>
+//                 <span className='masterDegreeDetails'>Full Stack Trainee</span>
+//                 <div className='datePass'>
+//                     <i className='pi pi-calendar'></i>
+//                     <p className='masterDuration'>Aug 2022 - Dec 2022</p>
+//                 </div>
+//             </div>
+//         </div>
+//     </div>
+
+//     <div className='timeline'>
+//         <div className='container left-container'>
+//             <div className='text-box'>
+//                 <h2 className='masterUnivName'>SimpliLearn</h2>
+//                 <span className='masterDegreeDetails'>Full Stack certfication</span>
+//                 <div className='datePass'>
+//                     <i className='pi pi-calendar'></i>
+//                     <p className='masterDuration'>Jan 2022 - Jun 2022</p>
+//                 </div>
+//             </div>
+//             <i className='pi pi-circle-fill circle-left'></i>
+//         </div>
+//     </div>
+
+//     <div className='timeline'>
+//         <div className='container right-container'>
+//             <i className='pi pi-circle-fill circle-right'></i>
+//             <div className='text-box'>
+//                 <h2 className='masterUnivName'>Think Next Pvt. Ltd.</h2>
+//                 <span className='masterDegreeDetails'>AI/ML Intern</span>
+//                 <div className='datePass'>
+//                     <i className='pi pi-calendar'></i>
+//                     <p className='masterDuration'>May 2019 - Jun 2019</p>
+//                 </div>
+//             </div>
+//         </div>
+//     </div>
+
+// </div>;
 
     return (
         <section id='skills'>
@@ -34,12 +152,12 @@ const toggleVisiblity3 = () => {
          <div className='skillTechnical'>
            <div className="skills_content" >
                 <div className="skills_header"  onClick={toggleVisiblity}>
-                  <i className='pi pi-code' />
+                  <i className='pi pi-skill pi-code' />
                   <div className='skill_header_part1'>
                     <h1 className="skills_title">Programming</h1>
                     <span className="skills_subtitle">Coding Languages </span>
                   </div>
-                    <i className="pi pi-caret-down"></i>
+                    <i className="pi pi-skill  pi-caret-down"></i>
                 </div>
             </div>
                 {isVisible && (
@@ -101,12 +219,12 @@ const toggleVisiblity3 = () => {
 
             <div className="skills_content" >
                 <div className="skills_header" onClick={toggleVisiblity1}>
-                  <i className='pi pi-sitemap' />
+                  <i className='pi pi-skill pi-sitemap' />
                   <div className='skill_header_part1'>
                     <h1 className="skills_title">Development</h1>
                     <span className="skills_subtitle">Tools and Softwares </span>
                   </div>
-                    <i className="pi pi-caret-down"></i>
+                    <i className="pi pi-skill pi-caret-down"></i>
                 </div>
             </div>
             {isVisible1 && (
@@ -166,12 +284,12 @@ const toggleVisiblity3 = () => {
 
             <div className="skills_content" >
                 <div className="skills_header" onClick={toggleVisiblity2}>
-                  <i className='pi pi-users' />
+                  <i className='pi pi-skill pi-users' />
                   <div className='skill_header_part1'>
                     <h1 className="skills_title">Social Skills</h1>
                     <span className="skills_subtitle">Personal and Social Skills </span>
                   </div>
-                    <i className="pi pi-caret-down"></i>
+                    <i className="pi pi-skill pi-caret-down"></i>
                 </div>
             </div>
 
@@ -223,12 +341,12 @@ const toggleVisiblity3 = () => {
 
             <div className="skills_content" >
                 <div className="skills_header" onClick={toggleVisiblity3}>
-                  <i className='pi pi-language' />
+                  <i className='pi pi-skill pi-language' />
                   <div className='skill_header_part1'>
                     <h1 className="skills_title">Languages</h1>
                     <span className="skills_subtitle">Languages I can speak and write </span>
                   </div>
-                    <i className="pi pi-caret-down"></i>
+                    <i className="pi pi-skill pi-caret-down"></i>
                 </div>
             </div>
 
@@ -287,87 +405,8 @@ const toggleVisiblity3 = () => {
             </div>
         </div>   
         <br></br>
-
-        
-        {/* <div className='educationTrack'>
-            <div className='masterClass'>
-                <div className='masterUnivLeft'>
-                    <h3 className='masterUnivName'>Binghamton University, Thomas J. Watson College of Engineering and Applied Science</h3>
-                    <span className='masterDegreeDetails'>Master of Science in Computer Science</span>
-                    <div className='datePass'>
-                        <i className='pi pi-calendar'></i>
-                        <p className='masterDuration'>Aug 2023 - May 2025</p>
-                    </div>
-                </div>
-                <div className='masterUnivMiddle'>
-                    <i className='pi pi-circle'></i>
-                    <div className='linetravelTime'></div>
-                </div>
-                <div className='masterUnivRight'>
-
-                </div>
-            </div>
-        </div> */}
         
 
-        {/* <div className='timeline'>
-            <div className='container left-container'>
-                <div className='text-box'>
-                    <h2 className='masterUnivName'>Binghamton University, Thomas J. Watson College of Engineering and Applied Science</h2>
-                    <span className='masterDegreeDetails'>Master of Science in Computer Science</span>
-                    <div className='datePass'>
-                        <i className='pi pi-calendar'></i>
-                        <p className='masterDuration'>Aug 2023 - May 2025</p>
-                    </div>
-                </div>
-                <i className='pi pi-circle circle-left'></i>
-                
-            </div>
-        </div>
-
-        <div className='timeline'>
-            <div className='container right-container'>
-            <i className='pi pi-circle circle-right'></i>
-                <div className='text-box'>
-                    <h2 className='masterUnivName'>Jaypee University Of Information, Technology</h2>
-                    <span className='masterDegreeDetails'>Master of Science in Computer Science</span>
-                    <div className='datePass'>
-                        <i className='pi pi-calendar'></i>
-                        <p className='masterDuration'>Aug 2023 - May 2025</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='timeline'>
-            <div className='container left-container'>
-                <div className='text-box'>
-                    <h2 className='masterUnivName'>Kendriya Vidyalaya Hamirpur</h2>
-                    <span className='masterDegreeDetails'>Master of Science in Computer Science</span>
-                    <div className='datePass'>
-                        <i className='pi pi-calendar'></i>
-                        <p className='masterDuration'>Aug 2023 - May 2025</p>
-                    </div>
-                </div>
-                <i className='pi pi-circle circle-left'></i>
-            </div>
-        </div>
-
-        <div className='timeline'>
-            <div className='container right-container'>
-                <i className='pi pi-circle circle-right'></i>
-                <div className='text-box'>
-                    <h2 className='masterUnivName'>Kendriya Vidyalaya Nadaun</h2>
-                    <span className='masterDegreeDetails'>Master of Science in Computer Science</span>
-                    <div className='datePass'>
-                        <i className='pi pi-calendar'></i>
-                        <p className='masterDuration'>Aug 2023 - May 2025</p>
-                    </div>
-                </div>
-            </div>
-        </div> */}
-
-        
 
 
 
