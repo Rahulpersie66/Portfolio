@@ -4,6 +4,7 @@ import wordpress from '../../assests/wordpress.jpg';
 import java from '../../assests/java.png';
 import ui from '../../assests/ui.jpg';
 import 'primeicons/primeicons.css';
+import Timeline from '../Timeline/timeline';
         
 
 const Skills = () => {
@@ -407,7 +408,7 @@ const toggleVisiblity3 = () => {
         <br></br>
         
 
-
+        <Timeline className='timelineReact'/>
 
 
             <div className='skillBars'>

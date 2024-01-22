@@ -1,0 +1,30 @@
+.experience{
+    width: 70vw;
+    margin: auto;
+}
+/* .verticalline{
+    width: 100%;
+    background-color: rgb(50,50,50);
+} */
+/* .vertical-timeline-element-content {
+    color: rgb(50,50,50);
+} */
+
+.headTimeline, .paraTimeline {
+    color:#000;
+}
+
+@media screen and (max-width:500px) {
+    .experience{
+        width:100%;
+    }
+    .headTimeline{
+        font-size: small;
+        text-align: left;
+    }
+    .paraTimeline{
+        font-size: xx-small;
+        text-align: left;
+        margin: 0;
+    }
+}

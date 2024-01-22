@@ -56,7 +56,7 @@
 }
 
 .skillTechnical{
-    width: 90%;
+    width: 80%;
 }
 
 .skills_content:hover{
@@ -127,7 +127,7 @@
 .qualStudJob{
     display: flex;
     flex-direction: row;
-    width:100%;
+    width:80%;
     margin: auto;
     /* background-color: aqua; */
     
@@ -256,12 +256,16 @@
 .container{
     position: relative;
     width: 47%;
-    /* background-color: rgb(50,50,50); */
+    background-color: rgb(50,50,50);
     border-radius: 2rem;
-    /* padding: 1rem; */
-    /* margin-bottom: 1.5rem; */
+    padding: 1rem;
+    margin-bottom: 1.5rem;
 
     text-align: start;
+}
+
+.text-box{
+    
 }
 
 .left-container{
@@ -286,14 +290,14 @@
 
 .circle-right{
     font-size: 1rem;
-    /* position: relative; */
+    position: relative;
     /* width:10%; */
     margin-left: -13.7%;
     z-index: 1;
 }
 
 /* Vertical line */
-.timeline::after{
+/* .timeline::after{
     content: '';
     position: absolute;
     width:0.26rem;
@@ -301,7 +305,10 @@
     background-color: aqua;
     margin-left: 31.7%;
     transform: translateX(-50%);
-}
+} */
+
+
+
 
 @media screen and (max-width:916px){
     .skillBarImg{
@@ -352,7 +359,7 @@
     .skillBarText>p{
         font-size: 86%;
     }
-    .pi-skill{
+    .pi{
         padding-top: 0.5rem;
         font-size: large;
     }
@@ -400,7 +407,7 @@
     .masterDuration{
         font-size: xx-small;
     }
-    .pi-skill{
+    .pi{
         padding-top: 0.5rem;
         font-size: x-small;
     }
