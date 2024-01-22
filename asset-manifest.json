@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.af8360d9.css",
-    "main.js": "/Portfolio/static/js/main.c7cd50ef.js",
+    "main.css": "/Portfolio/static/css/main.ecacf01c.css",
+    "main.js": "/Portfolio/static/js/main.b3df04a3.js",
     "static/media/RRLogo2.png": "/Portfolio/static/media/RRLogo2.78e45c41c468e40530e3.png",
     "static/media/hire.png": "/Portfolio/static/media/hire.40a7887e71af0b0a6be3.png",
     "static/media/msg2.png": "/Portfolio/static/media/msg2.cd5b2ebefcfa3200bb0f.png",
@@ -23,11 +23,11 @@
     "static/media/github.jpg": "/Portfolio/static/media/github.534a9c9e5a36a053d90d.jpg",
     "static/media/java.png": "/Portfolio/static/media/java.685c6ad7bbe82a29f9fd.png",
     "index.html": "/Portfolio/index.html",
-    "main.af8360d9.css.map": "/Portfolio/static/css/main.af8360d9.css.map",
-    "main.c7cd50ef.js.map": "/Portfolio/static/js/main.c7cd50ef.js.map"
+    "main.ecacf01c.css.map": "/Portfolio/static/css/main.ecacf01c.css.map",
+    "main.b3df04a3.js.map": "/Portfolio/static/js/main.b3df04a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.af8360d9.css",
-    "static/js/main.c7cd50ef.js"
+    "static/css/main.ecacf01c.css",
+    "static/js/main.b3df04a3.js"
   ]
 }
