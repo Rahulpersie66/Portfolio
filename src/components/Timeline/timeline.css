@@ -15,6 +15,11 @@
 }
 
 @media screen and (max-width:500px) {
+    .vertical-timeline-element {
+        color: black;
+        text-align: left;
+        font-size: xx-small;
+    }
     .experience{
         width:100%;
     }

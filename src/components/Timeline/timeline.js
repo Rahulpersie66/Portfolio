@@ -39,7 +39,7 @@ const Timeline = () =>{
                 date = 'Apr 2003 - Mar 2013'
                 >
                 <h3 className='headTimeline'>Kendriya Vidyalaya Nadaun</h3>
-                <p className='paraTimeline'>Primary Education (1 -10)</p>
+                <p className='paraTimeline'>Primary Education<br></br> (1 -10)</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
