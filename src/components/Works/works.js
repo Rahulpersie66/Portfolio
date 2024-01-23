@@ -1,6 +1,6 @@
 import React from 'react';
 import './works.css';
-import portfolio from '../../assests/RRLogo2.png'
+import portfolio from '../../assests/RRLogo.png'
 
  const Works  = () => {
     return(
