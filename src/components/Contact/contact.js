@@ -32,6 +32,7 @@ const Contact = () => {
 
         // Validate Gmail address
         const gmailRegex = /^[a-zA-Z0-9_.+-]+@gmail\.com$/;
+        // const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!gmailRegex.test(email)) {
         alert('Please enter a valid Gmail address.');
         return;

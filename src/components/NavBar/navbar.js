@@ -5,6 +5,7 @@ import {Link} from 'react-scroll';
 import {Link as RouterLink} from 'react-router-dom';
 import './navbar.css';
 import contactMe from '../../assests/msg2.png';
+import { FaBars } from 'react-icons/fa';
 //create Navbar function which will be used in react
 const Navbar  = ({ onWorksClick }) => {
 
@@ -30,7 +31,8 @@ const Navbar  = ({ onWorksClick }) => {
             </button>
 
             {/* Mobile menu */}
-            <img src={logo} alt="mobMenu" className='mobMenu' onClick = { () => setShowMenu(!showMenu)}></img>
+            {/* <img src={logo} alt="mobMenu" className='mobMenu' onClick = { () => setShowMenu(!showMenu)}></img> */}
+            <FaBars className='mobMenu' onClick={()=>{setShowMenu(!showMenu)}}></FaBars>
             <div className="navMenu" style={{ display : showMenu ? 'flex' : 'none'} }>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Home</Link>
                 <Link  activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >About</Link>
