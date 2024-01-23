@@ -1,11 +1,15 @@
 import React, {useRef} from 'react';
 import './contact.css';
-import logo from '../../assests/logo.jpg'
+import tot from '../../assests/RaG.png'
+import ks from '../../assests/Litchen.png'
+import gl from '../../assests/Glut 3.png'
+import jv from '../../assests/jarvis.png'
 import emailjs from '@emailjs/browser';
-import insta from '../../assests/insta.jpg';
-import linkedin from '../../assests/in.png';
-import github from '../../assests/github.jpg';
-import youtube from '../../assests/yt.jpg';
+import {FaInstagram} from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaCode } from 'react-icons/fa';
 import {Link as RouterLink} from 'react-router-dom';
 
 const Contact = () => {
@@ -26,16 +30,69 @@ const Contact = () => {
       };
       // until here
 
+      const linkedin = () => {
+        window.location.href = 'https://www.linkedin.com/in/rahulbinghamton/';
+
+      }
+
+      const github = () => {
+        window.location.href = 'https://github.com/Rahulpersie66';
+      }
+
+      const youtube = () => {
+        window.location.href = 'https://www.youtube.com/@bonvoyage340';
+      }
+
+      const leetCode = () => {
+        window.location.href = 'https://leetcode.com/Persie/';
+      }
+
+      const insta = () => {
+        window.location.href = 'https://www.instagram.com/iam_persie11/';
+      }
+
     return (
         <section id='contactPage'>
             <div id='clients'>
                 <h1 className='contactPageTitle'>My Projects</h1>
-                <p className='clientsDesc'>These are my some projects, more projects on <RouterLink to='/portfolioPage/' className='moreProjects'>Portfolio</RouterLink> section.</p>
+                <p className='clientsDesc'>These are my some projects, more projects on <RouterLink to='/projects/' className='moreProjects'>Portfolio projects</RouterLink> section.</p>
                 <div className='clientsImgs'>
+                    <div className='project'>
+                        <h3 className='projectName'>Tip of Tongue - A Movie Finder</h3>
+                        <div className='projectTogether'>
+                        <p className='projectAbout'>Collaborated in a team for a RAG task, achieved 70% accuracy with a Python-based machine learning model for movie information retrieval and generation from user prompts.
+                            </p>
+                            <img src={tot} alt='project' className='projectImg'></img>
+                        </div>
+                    </div>
+                    
+                    <div className='project'>
+                        <h3 className='projectName'>Animation film using C++ Glut Library</h3>
+                        <div className='projectTogether'>
+                        <p className='projectAbout'>Crafted an engaging turtle and rabbit race film using GLUT library and C++. Applied lecture insights for intricate animation, optimizing movement and ensuring a visually appealing experience and object oriented programming basics for structure of rabbit and turtle.</p>
+                            <img src={gl} alt='project' className='projectImg'></img>
+                        </div>
+                    </div>
+
+                    <div className='project'>
+                        <h3 className='projectName'>Kitchen Ecommerce Store</h3>
+                        <div className='projectTogether'>
+                        <p className='projectAbout'>Developed a kitchen management system using Java Spring Boot and Angular, enabling  CRUD operations and communication for administrators and users via user friendly application. </p>
+                            <img src={ks} alt='project' className='projectImg'></img>
+                        </div>
+                    </div>
+
+                    <div className='project'>
+                        <h3 className='projectName'>Jarvis - A Speech Recognizer</h3>
+                        <div className='projectTogether'>
+                        <p className='projectAbout'>Create a voice-controlled project using Python and Google's Speech-to-Text. Showcase Python skills, API integration, and enhance user experiences with hands-free interactions.</p>
+                            <img src={jv} alt='project' className='projectImg'></img>
+                        </div>
+                    </div>
+                    {/* <img src={logo} alt='Client' className='clientsImg'/>
                     <img src={logo} alt='Client' className='clientsImg'/>
                     <img src={logo} alt='Client' className='clientsImg'/>
-                    <img src={logo} alt='Client' className='clientsImg'/>
-                    <img src={logo} alt='Client' className='clientsImg'/>
+                    <img src={logo} alt='Client' className='clientsImg'/> */}
                 </div>
             </div>
 
@@ -49,10 +106,11 @@ const Contact = () => {
                     <textarea name='message' rows='5' placeholder='Your Message' className='msg'></textarea>
                     <button className='submitBtn' type='submit' value='Send'>Submit</button>
                     <div className='links'>
-                        <img src={linkedin} alt='LinkedIn' className='link'/>
-                        <img src={github} alt='Github' className='link'/>
-                        <img src={youtube} alt='Youtube' className='link'/>
-                        <img src={insta} alt='Instagram' className='link'/>
+                        <FaLinkedinIn className='link' onClick={linkedin}></FaLinkedinIn>
+                        <FaCode className='link' onClick={leetCode}></FaCode>
+                        <FaYoutube className='link' onClick={youtube}></FaYoutube>
+                        <FaGithub className='link' onClick={github}></FaGithub>
+                        <FaInstagram className='link' onClick={insta}></FaInstagram>
                     </div>
                 </form>
             </div>

@@ -20,14 +20,24 @@
 }
 
 .clientsImgs{
-    margin: 1rem 0;
+    width: 90%;
+    margin: 1rem auto;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
-.clientsImg{
+.project{
+    width:49%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 4rem;
+    background-color: rgb(40,40,40);
+}
+
+.clientsImg, .projectImg{
     object-fit: cover;
-    width:23%;
+    width:70%;
     min-width: 9rem;
     margin: auto;
     padding: 0.25rem;
@@ -75,6 +85,11 @@
     border-radius: 0.5rem;
     padding: 0.75rem 3.5rem;
 }
+.submitBtn:hover{
+    background-color: yellow;
+    font-weight: 800;
+    color: blue;
+}
 
 .links{
     display: flex;
@@ -88,4 +103,18 @@
     width: 3rem;
     margin: 0 0.75rem;
     
+}
+
+.link:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+@media screen and (max-width:800px) {
+    .clientsImgs{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+    }
 }

@@ -20,7 +20,7 @@ const Navbar  = ({ onWorksClick }) => {
                 <Link  activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>About</Link>
                 {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem' onClick={() => onWorksClick()}>Portfolio</Link> */}
                 <RouterLink to='/portfolioPage/' className='desktopMenuListItem'>Portfolio</RouterLink>
-                <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Clients</Link>
+                <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>My Projects</Link>
             </div>
             <button className="desktopMenuBtn" onClick = {()=> {
                 document.getElementById('contact').scrollIntoView({behavior:'smooth'});
@@ -36,7 +36,7 @@ const Navbar  = ({ onWorksClick }) => {
                 <Link  activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >About</Link>
                 {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>{setShowMenu(false);} } >Portfolio</Link> */}
                 <RouterLink to='/portfolioPage/' className='listItem'>Portfolio</RouterLink>
-                <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Clients</Link>
+                <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >My Projects</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Contact</Link>
             </div>
         </nav>

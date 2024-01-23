@@ -19,12 +19,15 @@
 }
 
 .skillDesc{
+    width: 100%;
     font-weight: 200;
     font-size: 1rem;
     max-width: 50rem;
     padding: 2rem;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: justify;
+
     
 }
 
@@ -36,7 +39,9 @@
 }
 
 .skillBar{
+    width:100%;
     display: flex;
+    flex-direction: row;
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
@@ -54,6 +59,9 @@
     font-size: 0.9rem;
     font-weight: 200;
 }
+/* .skillBarTextPara{
+    text-align: left;
+} */
 
 .skillTechnical{
     width: 80%;
@@ -323,6 +331,11 @@
         text-align: center;
         
     }
+    
+    .skillDesc{
+        text-align: center;
+    }
+
     .eduactionQual p, .jobQual p{
         font-size: medium;
     }
