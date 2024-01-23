@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5b9001e4.css",
-    "main.js": "/Portfolio/static/js/main.0b1c04a6.js",
+    "main.css": "/Portfolio/static/css/main.69d0c072.css",
+    "main.js": "/Portfolio/static/js/main.7f4cf282.js",
     "static/media/RRLogo2.png": "/Portfolio/static/media/RRLogo2.78e45c41c468e40530e3.png",
     "static/media/hire.png": "/Portfolio/static/media/hire.40a7887e71af0b0a6be3.png",
     "static/media/RaG.png": "/Portfolio/static/media/RaG.25826fc3322c23eeff6d.png",
@@ -23,11 +23,11 @@
     "static/media/juit_by_jaypeeit_dgafpv5-fullview.jpg": "/Portfolio/static/media/juit_by_jaypeeit_dgafpv5-fullview.dc3ed22df3d8aaaf4a3b.jpg",
     "static/media/java.png": "/Portfolio/static/media/java.685c6ad7bbe82a29f9fd.png",
     "index.html": "/Portfolio/index.html",
-    "main.5b9001e4.css.map": "/Portfolio/static/css/main.5b9001e4.css.map",
-    "main.0b1c04a6.js.map": "/Portfolio/static/js/main.0b1c04a6.js.map"
+    "main.69d0c072.css.map": "/Portfolio/static/css/main.69d0c072.css.map",
+    "main.7f4cf282.js.map": "/Portfolio/static/js/main.7f4cf282.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b9001e4.css",
-    "static/js/main.0b1c04a6.js"
+    "static/css/main.69d0c072.css",
+    "static/js/main.7f4cf282.js"
   ]
 }
