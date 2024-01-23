@@ -99,10 +99,13 @@
 
 .link{
     object-fit: cover;
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
     margin: 0 0.75rem;
     
+}
+.project:hover>h3 {
+    color: yellow;
 }
 
 .link:hover{
@@ -111,10 +114,21 @@
 }
 
 @media screen and (max-width:800px) {
+    .project{
+        width: 100%;
+    }
     .clientsImgs{
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
 
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .link{
+        height:1.5rem;
+        width:1.5rem;
     }
 }

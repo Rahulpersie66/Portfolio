@@ -3,13 +3,21 @@ import React, {useState} from 'react'
 
 import logo from '../../assests/RRLogo.png';
 import {Link} from 'react-scroll';
-import {Link as RouterLink} from 'react-router-dom';
+import {Link as RouterLink,  useNavigate} from 'react-router-dom';
 import contactMe from '../../assests/msg2.png';
 
 const PortfolioNavbar = () => {
-
+    const navigate =  useNavigate();
     const [showMenu, setShowMenu] = useState(false);
 
+    // const handleContactMeClick = () => {
+    //     document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    //   };
+    
+      const handlePortfolioClick = () => {
+        navigate('/Portfolio/');
+      };
+    
 
     return (
         <nav className="portfolioNavbar">
@@ -24,10 +32,7 @@ const PortfolioNavbar = () => {
             <RouterLink to='/education/' activeClass='active' aria-current='page' className='desktopMenuListItem'>Education</RouterLink>
             <RouterLink activeClass='active' to='/projects' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Projects</RouterLink>
         </div>
-        <button className="desktopMenuBtn" onClick = {()=> {
-            document.getElementById('contact').scrollIntoView({behavior:'smooth'});
-        }
-        }>
+        <button className="desktopMenuBtn"  onClick ={handlePortfolioClick}>
             <img src={contactMe} alt="" className="desktopMenuImg"/>&nbsp;Contact Me
         </button>
 

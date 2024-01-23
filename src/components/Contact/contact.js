@@ -12,6 +12,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaCode } from 'react-icons/fa';
 import {Link as RouterLink} from 'react-router-dom';
 
+
 const Contact = () => {
     // to send email
     const form = useRef();

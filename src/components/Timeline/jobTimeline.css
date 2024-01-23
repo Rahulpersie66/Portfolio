@@ -9,6 +9,9 @@
 /* .vertical-timeline-element-content {
     color: rgb(50,50,50);
 } */
+.vertical-timeline-element:hover{
+    color: yellow;
+}
 
 .headTimeline, .paraTimeline {
     color:#000;

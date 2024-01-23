@@ -33,7 +33,7 @@
 
 .skillBars{
     margin:1.5rem;
-    width:100vw;
+    width:100%;
     max-width: 80%;
     text-align: left;
 }
@@ -314,8 +314,33 @@
     margin-left: 31.7%;
     transform: translateX(-50%);
 } */
-
-
+.leetcodeRank{
+    margin-bottom: 1.5rem;
+}
+.leetcodeRank:hover > .leetcodeRankHeader{
+    color:yellow;
+    cursor: pointer;
+}
+.leetcodeRanking:hover > .leetslogo{
+    color: aqua;
+    /* background-color: aqua; */
+}
+.leetCodeProblem:hover > .leetslogo{
+    color: aqua;
+    /* background-color: aqua; */
+}
+.leetCodeEasy:hover > .leetslogo{
+    color: aqua;
+    /* background-color: aqua; */
+}
+.leetCodeMedium:hover > .leetslogo{
+    color: aqua;
+    /* background-color: aqua; */
+}
+.leetCodeHard:hover > .leetslogo{
+    color: aqua;
+    /* background-color: aqua; */
+}
 
 
 @media screen and (max-width:916px){
@@ -362,6 +387,12 @@
     .pi-calendar{
         font-size: smaller;
     }
+    .leetcodeRankHeader{
+        font-size: larger;
+    }
+    .statusLeetCode{
+        font-size: small;
+    }
 }
 
 @media screen and (max-width:536px){
@@ -394,7 +425,6 @@
     
     }
    
-    
  
 }
 
@@ -435,6 +465,16 @@
     
     }
     .educationQualHeader, .jobQualHeader{
+        font-size: small;
+    }
+    .leetcodeRank{
+        display: flex;
+        flex-direction: column;
+    }
+    .leetcodeRankHeader{
+        font-size: large;
+    }
+    .statusLeetCode{
         font-size: small;
     }
 }

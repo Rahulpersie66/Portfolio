@@ -6,8 +6,18 @@ import ui from '../../assests/ui.jpg';
 import 'primeicons/primeicons.css';
 import Timeline from '../Timeline/timeline';
 import JobTimeline from '../Timeline/jobTimeline';
+import {FaTrophy} from 'react-icons/fa';
+import { FaAward } from 'react-icons/fa';
+import { FaResolving } from 'react-icons/fa';
+import { FaMedium } from 'react-icons/fa';
+import { FaBookDead } from 'react-icons/fa';
+import { FaSortNumericUp } from 'react-icons/fa';
 
 const Skills = () => {
+    const leetcodeUrl =() => {
+        window.location.href = 'https://leetcode.com/Persie/';
+    }
+
    const [isVisible, setIsVisible] = useState(false);
    const [isVisible1, setIsVisible1] = useState(false);
    const [isVisible2, setIsVisible2] = useState(false);
@@ -48,23 +58,20 @@ const educationTimeline =
 const jobTimeline =<JobTimeline/>;
 
 // const [userData, setUserData] = useState(null);
-// const [apiData, setApiData] = useState(null);
-const [apiData2,setApiData2] = useState(null);
+const [apiData, setApiData] = useState(null);
+
 // const username = "Persie";
 
 useEffect(() => {
     const fetchData = async () => {
       try {
-        // const response = await fetch('https://leetcode-stats-api.herokuapp.com/Persie');
-        const response2 = await fetch('https://geeks-for-geeks-api.vercel.app/rahulpenb5c');
-        if ( !response2.ok) {
+        const response = await fetch('https://leetcode-stats-api.herokuapp.com/Persie');
+        if ( !response.ok) {
           throw new Error('Network response was not ok');
         }
 
-        // const data = await response.json();
-        const data2 = await response2.json();
-        // setApiData(data);
-        setApiData2(data2);
+        const data = await response.json();
+        setApiData(data);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -74,6 +81,7 @@ useEffect(() => {
   }, []);
 
 
+
 return (
         <section id='skills'>
             <span className='skillTitle'>What I do?</span>
@@ -81,14 +89,19 @@ return (
            {/*Skill Technical Skills*/}
 
             <div className='leetcodeRank'>
-                {apiData2 ? (
-                    <div>
+                <h2 className='leetcodeRankHeader' onClick={leetcodeUrl}><FaTrophy className='trophy'></FaTrophy>Status of Leetcode:</h2>
+                {apiData ? (
+                    <div className='statusLeetCode'>
                     {/* <p>Ranking: {apiData.ranking}</p>
                     <p>Rating: {apiData.totalQuestions}</p> */}
-                    <p>{apiData2}</p>
+                    <p className='leetcodeRanking'><FaAward className='leetslogo'></FaAward> GLOBAL RANK: {apiData.ranking} </p>
+                    <p className='leetCodeProblem'><FaSortNumericUp className='leetslogo'></FaSortNumericUp>&nbsp; Total Problems Solved: {apiData.totalSolved}</p>
+                    <p className='leetCodeEasy'><FaResolving className='leetslogo'></FaResolving> Easy: {apiData.easySolved}</p>
+                    <p className='leetCodeMedium'><FaMedium className='leetslogo'></FaMedium> Medium: {apiData.mediumSolved}</p>
+                    <p className='leetCodeHard'><FaBookDead className='leetslogo'></FaBookDead> Hard: {apiData.hardSolved}</p>
                     </div>
                 ) : (
-                    <p>Loading...</p>
+                    <p>Loading Rank...</p>
                 )}
             </div>
 
