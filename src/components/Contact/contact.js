@@ -19,6 +19,23 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+            // Validate required fields
+        const name = form.current['your_name'].value.trim();
+        const email = form.current['your_email'].value.trim();
+        const message = form.current['message'].value.trim();
+
+        if (!name || !email || !message) {
+        alert('Please fill out all the required fields.');
+        return;
+        }
+
+        // Validate Gmail address
+        const gmailRegex = /^[a-zA-Z0-9_.+-]+@gmail\.com$/;
+        if (!gmailRegex.test(email)) {
+        alert('Please enter a valid Gmail address.');
+        return;
+        }
     
         emailjs.sendForm('service_1r2agkb', 'template_ufmypcj', form.current, 'OqHGTbeUwpct8huz7')
           .then((result) => {
