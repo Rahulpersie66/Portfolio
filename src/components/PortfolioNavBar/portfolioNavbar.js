@@ -5,6 +5,7 @@ import logo from '../../assests/RRLogo.png';
 import {Link} from 'react-scroll';
 import {Link as RouterLink,  useNavigate} from 'react-router-dom';
 import contactMe from '../../assests/msg2.png';
+import { FaBars } from 'react-icons/fa';
 
 const PortfolioNavbar = () => {
     const navigate =  useNavigate();
@@ -37,7 +38,8 @@ const PortfolioNavbar = () => {
         </button>
 
         {/* Mobile menu */}
-        <img src={logo} alt="mobMenu" className='mobMenu' onClick = { () => setShowMenu(!showMenu)}></img>
+        {/* <img src={logo} alt="mobMenu" className='mobMenu' onClick = { () => setShowMenu(!showMenu)}></img> */}
+        <FaBars  className='mobMenu' onClick = { () => setShowMenu(!showMenu)}></FaBars>
         <div className="navMenu" style={{ display : showMenu ? 'flex' : 'none'} }>
             <RouterLink to='/Portfolio/' className='listItem'>Home</RouterLink>
             <Link  activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >About</Link>
@@ -45,7 +47,7 @@ const PortfolioNavbar = () => {
             <RouterLink to='/portfolioPage/' className='listItem'>Portfolio</RouterLink>
             <RouterLink  activeClass='active' to='/education/' className='listItem'>Education</RouterLink>
             <RouterLink activeClass='active' to='/projects' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Projects</RouterLink>
-            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ () =>setShowMenu(false) } >Contact</Link>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500} className='listItem' onClick={ handlePortfolioClick} >Contact</Link>
         </div>
     </nav>
     )
