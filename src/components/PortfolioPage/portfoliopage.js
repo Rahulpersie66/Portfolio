@@ -19,7 +19,7 @@ const PortfolioPage = () => {
             <div className='company'>
               <div className = 'companyDemo'>
               <img className='compLogo' src={company1} alt='Nablasol Digital Solutions Pvt. Ltd.'></img>
-              <span className='companyTitle'><h2 className='companyName'>Nablasol Digital Solution Pvt. Ltd.</h2><i className='dateOfCompany'>Dec 2022 - Mar 2023</i></span>
+              <span className='companyTitle'><h2 className='companyName'>Nablasol Digital Solution Pvt. Ltd.</h2><i className='dateOfCompany'>Dec 2022 - Jul 2023</i></span>
               </div><br></br> 
               <span className='skillCompany'><b>Skill:</b> Php, Javascript, Mysql, MVC Architecture, Object Oriented Programming, Wordpress, SugarCrm Framework, Ajax, jQuery, HTML5, CSS3, Effective Communication, Adaptibility, Creative Thinking</span>
               <br></br>
@@ -36,7 +36,7 @@ const PortfolioPage = () => {
             <div className='company'>
             <div className = 'companyDemo'>
               <img className='compLogo' src={company2} alt='Nablasol Digital Solutions Pvt. Ltd.'></img>
-              <span className='companyTitle'><h2 className='companyName'>Clerisy Solution Pvt. Ltd.</h2><i className='dateOfCompany'>Dec 2022 - Mar 2023</i></span></div>
+              <span className='companyTitle'><h2 className='companyName'>Clerisy Solution Pvt. Ltd.</h2><i className='dateOfCompany'>Jan 2022 - Dec 2022</i></span></div>
               <br></br> 
               <span className='skillCompany'><b>Skill:</b> Php, Javascript, Java, MySQL, MVC Architecture, Object Oriented Programming, Wordpress, CodeIgniter Framework, Ajax, jQuery, HTML5, CSS3, Effective Communication, Analysis of database, Creative Thinking</span>
               <br></br>

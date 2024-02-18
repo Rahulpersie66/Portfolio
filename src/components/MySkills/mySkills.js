@@ -4,7 +4,7 @@ import React from 'react'
 const mySkills = () =>{
     return (
         <div className='mySkills'>
-            my SKills
+            my SKills 
         </div>
     )
 }

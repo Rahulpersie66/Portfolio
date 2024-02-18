@@ -11,19 +11,19 @@ const JobTimeline = () =>{
                 <VerticalTimelineElement className='vertical-timeline-element'
                 iconStyle={{background:'rgb(0,0,0)', color:'#fff'}} 
                 icon={<FaBriefcase/>}
-                date = 'Dec 2022 - Mar 2023'
+                date = 'Dec 2022 - Jul 2023'
                 >
                 <h3 className='headTimeline'>Nablasol Digital Solution Pvt. Ltd.</h3>
-                <p className='paraTimeline'>Software Development Intern</p>
+                <p className='paraTimeline'>Software Development</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement className='vertical-timeline-element'
                 iconStyle={{background:'rgb(0,0,0)', color:'#fff'}} 
                 icon={<FaBriefcase/>}
-                date = 'Aug 2022 - Dec 2022'
+                date = 'Jan 2022 - Dec 2022'
                 >
                 <h3 className='headTimeline'>Clerisy Solution Pvt. Ltd.</h3>
-                <p className='paraTimeline'>Full Stack trainee</p>
+                <p className='paraTimeline'>Full Stack Developer</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement className='vertical-timeline-element'
                 iconStyle={{background:'rgb(0,0,0)', color:'#fff'}} 
