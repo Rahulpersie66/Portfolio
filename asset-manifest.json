@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3aa9ae5f.css",
-    "main.js": "/Portfolio/static/js/main.0b53f98c.js",
+    "main.css": "/Portfolio/static/css/main.c1be8c45.css",
+    "main.js": "/Portfolio/static/js/main.93115c51.js",
     "static/media/hire.png": "/Portfolio/static/media/hire.40a7887e71af0b0a6be3.png",
     "static/media/RaG.png": "/Portfolio/static/media/RaG.25826fc3322c23eeff6d.png",
     "static/media/msg2.png": "/Portfolio/static/media/msg2.cd5b2ebefcfa3200bb0f.png",
@@ -15,18 +15,17 @@
     "static/media/primeicons.eot": "/Portfolio/static/media/primeicons.d44157bdfa026dc877af.eot",
     "static/media/primeicons.woff": "/Portfolio/static/media/primeicons.10d3152104f2208ac82a.woff",
     "static/media/primeicons.ttf": "/Portfolio/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
-    "static/media/wordpress.jpg": "/Portfolio/static/media/wordpress.d9fc61de50f9e93ab72b.jpg",
-    "static/media/ui.jpg": "/Portfolio/static/media/ui.833f6b646c7639cf6009.jpg",
+    "static/media/data2.png": "/Portfolio/static/media/data2.64ebcaf35dfbebdee1a5.png",
     "static/media/BinghamtonUniversity.jpg": "/Portfolio/static/media/BinghamtonUniversity.9cae43874275cdd03814.jpg",
     "static/media/primeicons.woff2": "/Portfolio/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/python.png": "/Portfolio/static/media/python.e8ec024706fae5971a47.png",
     "static/media/juit_by_jaypeeit_dgafpv5-fullview.jpg": "/Portfolio/static/media/juit_by_jaypeeit_dgafpv5-fullview.dc3ed22df3d8aaaf4a3b.jpg",
-    "static/media/java.png": "/Portfolio/static/media/java.685c6ad7bbe82a29f9fd.png",
     "index.html": "/Portfolio/index.html",
-    "main.3aa9ae5f.css.map": "/Portfolio/static/css/main.3aa9ae5f.css.map",
-    "main.0b53f98c.js.map": "/Portfolio/static/js/main.0b53f98c.js.map"
+    "main.c1be8c45.css.map": "/Portfolio/static/css/main.c1be8c45.css.map",
+    "main.93115c51.js.map": "/Portfolio/static/js/main.93115c51.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aa9ae5f.css",
-    "static/js/main.0b53f98c.js"
+    "static/css/main.c1be8c45.css",
+    "static/js/main.93115c51.js"
   ]
 }
