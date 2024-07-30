@@ -11,6 +11,15 @@ const JobTimeline = () =>{
                 <VerticalTimelineElement className='vertical-timeline-element'
                 iconStyle={{background:'rgb(0,0,0)', color:'#fff'}} 
                 icon={<FaBriefcase/>}
+                date = 'Jan 2024 - May 2024'
+                >
+                <h3 className='headTimeline'>Binghamton University </h3>
+                <p className='paraTimeline'>Graduate Assistant Machine Learning</p>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement className='vertical-timeline-element'
+                iconStyle={{background:'rgb(0,0,0)', color:'#fff'}} 
+                icon={<FaBriefcase/>}
                 date = 'Dec 2022 - Jul 2023'
                 >
                 <h3 className='headTimeline'>Nablasol Digital Solution Pvt. Ltd.</h3>
@@ -28,7 +37,7 @@ const JobTimeline = () =>{
                 <VerticalTimelineElement className='vertical-timeline-element'
                 iconStyle={{background:'rgb(0,0,0)', color:'#fff'}} 
                 icon={<FaBriefcase/>}
-                date = 'Jan 2022 - Jul 2022'
+                date = 'Jan 2021 - Jul 2022'
                 >
                 <h3 className='headTimeline'>Simplilearn Java Full Stack Online</h3>
                 <p className='paraTimeline'>Java Full Stack Student</p>

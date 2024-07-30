@@ -50,9 +50,10 @@
 
 .skillBarImg{
     object-fit: cover;
-    height: 4%;
-    width: 24%;
+    height: 40%;
+    width: 20%;
     margin-right: 0.5rem;
+
 }
 
 .skillBarText{
@@ -272,9 +273,9 @@
     text-align: start;
 }
 
-.text-box{
+/* .text-box{
     
-}
+} */
 
 .left-container{
     margin-left: 0%;

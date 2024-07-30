@@ -1,8 +1,8 @@
 import React,{useState, useEffect} from 'react';
 import './skills.css';
-import wordpress from '../../assests/wordpress.jpg';
-import java from '../../assests/java.png';
-import ui from '../../assests/ui.jpg';
+import mysql from '../../assests/mysql.png';
+import python from '../../assests/python.png';
+import data from '../../assests/data2.png';
 import 'primeicons/primeicons.css';
 import Timeline from '../Timeline/timeline';
 import JobTimeline from '../Timeline/jobTimeline';
@@ -85,9 +85,8 @@ useEffect(() => {
 return (
         <section id='skills'>
             <span className='skillTitle'>What I do?</span>
-            <span className='skillDesc'>I'm a dedicated full-stack developer pursuing my Master's in Computer Science at Binghamton University. With hands-on experience in Java, C, PHP, and frameworks like SpringBoot, Angular, and CodeIgniter, I specialize in robust backend logic and API development. My skills extend to comprehensive website design, blending frontend and backend expertise. Beyond technical proficiency, I offer valuable soft skills—teamwork, consistency, critical thinking, problem-solving, leadership, and effective issue management.</span>
+            <span className='skillDesc'>I'm a dedicated data analyst pursuing my Master's in Computer Science at Binghamton University. With hands-on experience in SQL, Python, and tools like Power BI, Tableau, and Excel, I specialize in transforming raw data into actionable insights. My expertise extends to data visualization, statistical analysis, and machine learning, making complex data understandable and useful. Beyond technical proficiency, I offer valuable soft skills—teamwork, consistency, critical thinking, problem-solving, leadership, and effective issue management. <br></br>Additionally, I have experience with full-stack development using Java, C, PHP, and frameworks such as React, Angular, and SpringBoot, allowing me to blend data analysis with robust backend logic and comprehensive website design.</span>
            {/*Skill Technical Skills*/}
-
             <div className='leetcodeRank'>
                 <h2 className='leetcodeRankHeader' onClick={leetcodeUrl}><FaTrophy className='trophy'></FaTrophy>Status of Leetcode:</h2>
                 {apiData ? (
@@ -369,26 +368,26 @@ return (
             <div className='skillBars'>
                 {/* Skill Bar 1 */}
                 <div className='skillBar'>
-                    <img src={ui} alt='' className='skillBarImg'></img>
+                    <img src={data} alt='' className='skillBarImg'></img>
                     <div className='skillBarText'>
-                        <h2 className='skillBarTextHead'>UI/UX Designing</h2>
-                        <p className='skillBarTextPara'>With proficiency in JavaScript, PHP, WordPress, and more, I've enhanced website performance and user engagement. Collaborating on projects like Handyman's E-Commerce Website and PHP Chat App, I demonstrated UI/UX skills, improving functionality and user satisfaction. My experience in optimizing data organization, revamping database queries, and crafting interactive pages showcases a commitment to efficient and user-friendly design.</p>
+                        <h2 className='skillBarTextHead'>Data Analytics</h2>
+                        <p className='skillBarTextPara'>I excel in data analytics, efficiently extracting insights from complex datasets and generating detailed reports using advanced data manipulation and processing techniques. My skills enable me to transform raw data into actionable information, driving informed decision-making.</p>
                     </div>
                 </div>
                 {/* SKill Bar 2 */}
                 <div className='skillBar'>
-                    <img src={wordpress} alt='' className='skillBarImg'></img>
+                    <img src={mysql} alt='' className='skillBarImg'></img>
                     <div className='skillBarText'>
-                        <h2 className='skillBarTextHead'>Wordpress</h2>
-                        <p className='skillBarTextPara'>As a Full Stack Developer Intern, I showcased my proficiency in WordPress, utilizing it to design and optimize an E-Commerce Website for construction materials in Shimla. This included configuring online payment functionality and contributing to a 30% increase in on-time payments.</p>
+                        <h2 className='skillBarTextHead'>MySQL</h2>
+                        <p className='skillBarTextPara'>I have skills in database management, proficient in using SQL for querying and managing large datasets efficiently. My experience includes designing and optimizing database schemas to ensure data integrity and performance. I excel at extracting and transforming data from various databases for accurate analysis.</p>
                     </div>
                 </div>
                 {/* Skill Bar 3 */}
                 <div className='skillBar'>
-                    <img src={java} alt='' className='skillBarImg'></img>
+                    <img src={python} alt='' className='skillBarImg'></img>
                     <div className='skillBarText'>
-                        <h2 className='skillBarTextHead'>JAVA</h2>
-                        <p className='skillBarTextPara'>Proficient in Java, I develop dynamic applications using core concepts and frameworks like Spring Boot. From an airplane booking portal to e-commerce websites, I create efficient software solutions.</p>
+                        <h2 className='skillBarTextHead'>Python</h2>
+                        <p className='skillBarTextPara'>I am skilled in Python, focusing on data processing and machine learning. I excel in tasks like extracting information, cleaning text data, and generating CSV files, using libraries like Pandas, TensorFlow, and BERT. My experience spans span identification, cryptography, and natural language processing.</p>
                     </div>
                 </div>
             </div>

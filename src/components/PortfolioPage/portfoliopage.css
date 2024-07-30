@@ -73,6 +73,10 @@
     font-weight: 800;
     padding: 0 0.5rem;
 }
+.companyName:hover, .companyTitle:hover{
+    color: yellow;
+    cursor:pointer;
+}
 
 .dateOfCompany{
     width: 25%;
@@ -80,7 +84,14 @@
     direction: rtl;
 }
 
+.dateOfCompany:hover{
+    color: red;
+    cursor:pointer;
+}
 
+.portfolioPage{
+    align-items: center;
+}
   
 /* .company{
     display: flex;

@@ -18,14 +18,14 @@ const Education = () => {
                 <br></br>
                 <div className='coursesTaken'>
                     <h2 className='coursesTakens'>Courses:</h2>
-                    <span className='coursesName'>Intro to Machine Learning, Programming Languages, Design Analysis and Algorithms, Programming for Web, Operating System, Software Management</span>
+                    <span className='coursesName'>Intro to Machine Learning, Programming Languages, Design Analysis and Algorithms, Programming for Web, Operating System, Software Management, Intro to Computer Security, Large Language Model, Intro to Data Analytics</span>
                     <br></br><br></br>
                     <h2 className='skillsLearnedHeading'>Skill Gain:</h2>
-                    <p className='skillsLearned'>C, C++, Java, Python, Object-Oriented Programming, Imperative Programming, Functional Programming, Basics of Machine Learning </p>
+                    <p className='skillsLearned'>Python, Tableu, Microsoft BI, Excel, MySQL, C, C++, Java, Object-Oriented Programming, Imperative Programming, Functional Programming, Basics of Machine Learning, Data Processing, Database Management, Data Analytics, AWS pipeline </p>
                 </div>
                 <br></br>
                 <div className='cgpa'>
-                    <h2 className='gpaHead'>CGPA: <span className='gpaValue'> <b className='gpaGetValue'>4.00 </b> <b className='gpaOutValue'>/4.00</b></span></h2>
+                    <h2 className='gpaHead'>CGPA: <span className='gpaValue'> <b className='gpaGetValue'>3.95 </b> <b className='gpaOutValue'>/4.00</b></span></h2>
                 </div>
                 <div className='courseGrade'>
                     <h2 className='coursePerformance'>Course Performance</h2>
@@ -47,13 +47,25 @@ const Education = () => {
                             <td>3.</td><td>Programming Languages</td><td>Fall 2023</td><td>A</td>
                         </tr>
                         <tr>
-                            <td>4.</td><td>Operating System</td><td>Spring 2024</td><td>To Be Graded</td>
+                            <td>4.</td><td>Operating System</td><td>Spring 2024</td><td>A</td>
                         </tr>
                         <tr>
-                            <td>5.</td><td>Programming For Web</td><td>Spring 2024</td><td>To Be Graded</td>
+                            <td>5.</td><td>Intro to Computer Security</td><td>Spring 2024</td><td>A</td>
                         </tr>
                         <tr>
-                            <td>6.</td><td>Project Management</td><td>Spring 2024</td><td>To Be Graded</td>
+                            <td>6.</td><td>Project Management</td><td>Spring 2024</td><td>A-</td>
+                        </tr>
+                        <tr>
+                            <td>7.</td><td>Intro to Data Science (Independent Study)</td><td>Spring 2024</td><td>A</td>
+                        </tr>
+                        <tr>
+                            <td>8.</td><td>Design Patterns</td><td>Fall 2024</td><td>To be Graded</td>
+                        </tr>
+                        <tr>
+                            <td>9.</td><td>Social Media Data Science Pipeline</td><td>Fall 2024</td><td>To be Graded</td>
+                        </tr>
+                        <tr>
+                            <td>10.</td><td>System Programming</td><td>Fall 2024</td><td>To be Graded</td>
                         </tr>
                         </tbody>
                     </table>
@@ -73,11 +85,11 @@ const Education = () => {
                     <span className='coursesName'>Introduction To Computers And Programming, Presentation and Communication Skills, Electrical Circuit Analysis, Data Structures, Discrete Mathematics, Basics Electronic Devices and Circuits, Digital Electronics, UNIX Programming Lab, Object-Oriented Programming, Database Systems, Probability Theory and Random Processes, Microprocessor and Controllers, Fundamentals of Algorithms, Operating System, Theory Of Computation, Software Testing and Debugging, Computer Network, Complier Design, Computer Organisation and Architecture, Image Processing, Artificial Intelligence, Graph Algorithms and Applications, Software Reliability, Internet of Things Architecture and Design(OE), Design & Analysis of MultiDeminsional Data Structures, Contemporary India: Challenges Of Democracy & Development </span>
                     <br></br><br></br>
                     <h2 className='skillsLearnedHeading'>Skill Gain:</h2>
-                    <p className='skillsLearned'>C, C++, Java, Object-Oriented Programming, Imperative Programming, Functional Programming, Basics of Machine Learning, Web Developemnt, Artificial Imtelligence, Creative Thinking, Effective Communication, Presentation Skills, MySQL, Graph Theory, IOT, Finite Automata, UNIX Programming </p>
+                    <p className='skillsLearned'>Python, C, C++, Java, Object-Oriented Programming, Imperative Programming, Functional Programming, Basics of Machine Learning, Web Developemnt, Artificial Imtelligence, Creative Thinking, Effective Communication, Presentation Skills, MySQL, Graph Theory, IOT, Finite Automata, UNIX Programming </p>
                 </div>
                 <br></br>
                 <div className='cgpa'>
-                    <h2 className='gpaHead'>CGPA: <span className='gpaValue'> <b className='gpaGetValue'>3.68 </b> <b className='gpaOutValue'>/4.00</b></span></h2>
+                    <h2 className='gpaHead'>CGPA: <span className='gpaValue'> <b className='gpaGetValue'>3.70 </b> <b className='gpaOutValue'>/4.00</b></span></h2>
                     <h2 className='gpaHead'>CGPA(India): <span className='gpaValue'> <b className='gpaGetValue'>9.20 </b> <b className='gpaOutValue'>/ 10.00</b></span> </h2>
                 </div>
                 <br></br>
