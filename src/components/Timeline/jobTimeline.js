@@ -8,6 +8,16 @@ const JobTimeline = () =>{
     return(
         <div className='experience'>
             <VerticalTimeline lineColor='#247' className='verticalline'>
+
+                <VerticalTimelineElement className='vertical-timeline-element'
+                iconStyle={{background:'rgb(0,0,0)', color:'#fff'}} 
+                icon={<FaBriefcase/>}
+                date = 'Aug 2024 - Dec 2024'
+                >
+                <h3 className='headTimeline'>Binghamton University </h3>
+                <p className='paraTimeline'>Teaching Assistant Design Analysis & Algorithm</p>
+                </VerticalTimelineElement>
+
                 <VerticalTimelineElement className='vertical-timeline-element'
                 iconStyle={{background:'rgb(0,0,0)', color:'#fff'}} 
                 icon={<FaBriefcase/>}
