@@ -25,7 +25,7 @@ const Education = () => {
                 </div>
                 <br></br>
                 <div className='cgpa'>
-                    <h2 className='gpaHead'>CGPA: <span className='gpaValue'> <b className='gpaGetValue'>3.95 </b> <b className='gpaOutValue'>/4.00</b></span></h2>
+                    <h2 className='gpaHead'>CGPA: <span className='gpaValue'> <b className='gpaGetValue'>3.96 </b> <b className='gpaOutValue'>/4.00</b></span></h2>
                 </div>
                 <div className='courseGrade'>
                     <h2 className='coursePerformance'>Course Performance</h2>
@@ -59,13 +59,16 @@ const Education = () => {
                             <td>7.</td><td>Intro to Data Science (Independent Study)</td><td>Spring 2024</td><td>A</td>
                         </tr>
                         <tr>
-                            <td>8.</td><td>Design Patterns</td><td>Fall 2024</td><td>To be Graded</td>
+                            <td>8.</td><td>Design Patterns</td><td>Fall 2024</td><td>A</td>
                         </tr>
                         <tr>
-                            <td>9.</td><td>Social Media Data Science Pipeline</td><td>Fall 2024</td><td>To be Graded</td>
+                            <td>9.</td><td>Social Media Data Science Pipeline</td><td>Fall 2024</td><td>A</td>
                         </tr>
                         <tr>
-                            <td>10.</td><td>System Programming</td><td>Fall 2024</td><td>To be Graded</td>
+                            <td>10.</td><td>System Programming</td><td>Fall 2024</td><td>A</td>
+                        </tr>
+                        <tr>
+                            <td>11.</td><td>Termination Project</td><td>Spring 2025</td><td>To be Graded</td>
                         </tr>
                         </tbody>
                     </table>

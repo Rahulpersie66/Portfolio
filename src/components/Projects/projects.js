@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import PortfolioNavbar from '../PortfolioNavBar/portfolioNavbar'
 // import {Link} from 'react-scroll';
 import {Link as RouterLink} from 'react-router-dom';
+import Contact from '../Contact/contact';
 
 const Projects = () =>{
 
@@ -26,6 +27,7 @@ const Projects = () =>{
     return (
     <div className='myProjects'>
         <PortfolioNavbar/>
+        <Contact/>
             <div className='project'>
                 <h2>Github Repository Names</h2>
                 <ul>

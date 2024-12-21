@@ -1,13 +1,12 @@
 import './reference.css';
 import PortfolioNavbar from '../PortfolioNavBar/portfolioNavbar';
+import Recommendations from '../Recommendation/recommendation';
 
 const Reference = () => {
     return (
         <div>
             <PortfolioNavbar/>
-            <div className='referenceHeader'>
-                <div><span>Recommedations:</span></div>
-            </div>
+            <Recommendations/>
         </div>
     )
 }

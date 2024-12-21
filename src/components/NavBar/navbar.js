@@ -22,6 +22,7 @@ const Navbar  = ({ onWorksClick }) => {
                 {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem' onClick={() => onWorksClick()}>Portfolio</Link> */}
                 <RouterLink to='/portfolioPage/' className='desktopMenuListItem'>Portfolio</RouterLink>
                 <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>My Projects</Link>
+                <Link activeClass='active' to='recommendations' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Recommendation</Link>
             </div>
             <button className="desktopMenuBtn" onClick = {()=> {
                 document.getElementById('contact').scrollIntoView({behavior:'smooth'});
