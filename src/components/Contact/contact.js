@@ -1,5 +1,7 @@
 import React, {useRef} from 'react';
 import './contact.css';
+import bsa from '../../assests/Bike-sale-analysis.png'
+import sinlp from '../../assests/heatmap.png'
 import tot from '../../assests/RaG.png'
 import ks from '../../assests/Litchen.png'
 import gl from '../../assests/Glut 3.png'
@@ -76,6 +78,24 @@ const Contact = () => {
                 <h1 className='contactPageTitle'>My Projects</h1>
                 <p className='clientsDesc'>These are my some projects, more projects on <RouterLink to='/projects/' className='moreProjects'>Portfolio projects</RouterLink> section.</p>
                 <div className='clientsImgs'>
+                    <div className='project'>
+                            <h3 className='projectName'>Bike Sales Data Analysis</h3>
+                            <div className='projectTogether'>
+                            <p className='projectAbout'>Analysis of dataset from `Kaggle` of Bike bought by different gender and having different demographics. Maing Pivot table, dashboard and formatting chart for analysis.
+                                </p>
+                                <img src={bsa} alt='project' className='projectImg'></img>
+                            </div>
+                        </div>
+
+                    <div className='project'>
+                        <h3 className='projectName'>Span identifiaction & NLP tasks</h3>
+                        <div className='projectTogether'>
+                        <p className='projectAbout'>Working on wikipedia dataset and finding out how the hyperlink are formed and what the pattern beween internal and external link and analysis the heat map for the DISTIL-BERT model.
+                            </p>
+                            <img src={sinlp} alt='project' className='projectImg'></img>
+                        </div>
+                    </div>    
+
                     <div className='project'>
                         <h3 className='projectName'>Tip of Tongue - A Movie Finder</h3>
                         <div className='projectTogether'>

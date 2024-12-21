@@ -32,6 +32,8 @@ const PortfolioNavbar = () => {
             <RouterLink to='/portfolioPage/' className='desktopMenuListItem'>Portfolio</RouterLink>
             <RouterLink to='/education/' activeClass='active' aria-current='page' className='desktopMenuListItem'>Education</RouterLink>
             <RouterLink activeClass='active' to='/projects' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Projects</RouterLink>
+            <RouterLink to='/reference' activeClass ='active' aria-current='page' className='desktopMenuListItem'> Reference</RouterLink> 
+            <RouterLink to='/myYoutube' activeClass ='active' aria-current ='page' className='desktopMenuListItem'> My Youtube</RouterLink>
         </div>
         <button className="desktopMenuBtn"  onClick ={handlePortfolioClick}>
             <img src={contactMe} alt="" className="desktopMenuImg"/>&nbsp;Contact Me

@@ -10,6 +10,8 @@ import Projects from './components/Projects/projects';
 import MySkills from './components/MySkills/mySkills';
 
 import Education from "./components/Education/education";
+import Reference from "./components/References/reference";
+import MyYoutube from "./components/MyYoutube/myyoutube";
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -43,6 +45,8 @@ function App() {
           <Route path ="/education" element = {<Education/>} />
           <Route path ="/projects" element={<Projects/>} />
           <Route path ="/Skills" element={<MySkills/>} />
+          <Route path ="/Reference" element={<Reference/>}/>
+          <Route path="MyYoutube" element={<MyYoutube/>} />
         </Routes>
       </div>
     </Router>  
