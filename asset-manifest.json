@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.dba36158.css",
+    "main.js": "/Portfolio/static/js/main.507c5a3e.js",
+    "static/media/hire.png": "/Portfolio/static/media/hire.40a7887e71af0b0a6be3.png",
+    "static/media/RaG.png": "/Portfolio/static/media/RaG.25826fc3322c23eeff6d.png",
+    "static/media/msg2.png": "/Portfolio/static/media/msg2.cd5b2ebefcfa3200bb0f.png",
+    "static/media/RRLogo.png": "/Portfolio/static/media/RRLogo.eca54311aad9b01143c3.png",
+    "static/media/Glut 3.png": "/Portfolio/static/media/Glut 3.796b1dbdc6c7879559e4.png",
+    "static/media/IMG_20240115_132427__01.jpg": "/Portfolio/static/media/IMG_20240115_132427__01.b4179994ac14fcf37214.jpg",
+    "static/media/primeicons.svg": "/Portfolio/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/Litchen.png": "/Portfolio/static/media/Litchen.e0b948c6e70678752a7a.png",
+    "static/media/bg2.jpg": "/Portfolio/static/media/bg2.a57981dbfab3ffe8591d.jpg",
+    "static/media/jarvis.png": "/Portfolio/static/media/jarvis.8e8897a5e41a3d0a5a21.png",
+    "static/media/primeicons.eot": "/Portfolio/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/Portfolio/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/Portfolio/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/data2.png": "/Portfolio/static/media/data2.64ebcaf35dfbebdee1a5.png",
+    "static/media/BinghamtonUniversity.jpg": "/Portfolio/static/media/BinghamtonUniversity.9cae43874275cdd03814.jpg",
+    "static/media/primeicons.woff2": "/Portfolio/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/python.png": "/Portfolio/static/media/python.e8ec024706fae5971a47.png",
+    "static/media/juit_by_jaypeeit_dgafpv5-fullview.jpg": "/Portfolio/static/media/juit_by_jaypeeit_dgafpv5-fullview.dc3ed22df3d8aaaf4a3b.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.dba36158.css.map": "/Portfolio/static/css/main.dba36158.css.map",
+    "main.507c5a3e.js.map": "/Portfolio/static/js/main.507c5a3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dba36158.css",
+    "static/js/main.507c5a3e.js"
+  ]
+}
