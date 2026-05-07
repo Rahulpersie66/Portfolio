@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c1be8c45.css",
-    "main.js": "/Portfolio/static/js/main.93115c51.js",
+    "main.css": "/Portfolio/static/css/main.48dc857f.css",
+    "main.js": "/Portfolio/static/js/main.0185d375.js",
     "static/media/hire.png": "/Portfolio/static/media/hire.40a7887e71af0b0a6be3.png",
     "static/media/RaG.png": "/Portfolio/static/media/RaG.25826fc3322c23eeff6d.png",
     "static/media/msg2.png": "/Portfolio/static/media/msg2.cd5b2ebefcfa3200bb0f.png",
@@ -12,20 +12,26 @@
     "static/media/Litchen.png": "/Portfolio/static/media/Litchen.e0b948c6e70678752a7a.png",
     "static/media/bg2.jpg": "/Portfolio/static/media/bg2.a57981dbfab3ffe8591d.jpg",
     "static/media/jarvis.png": "/Portfolio/static/media/jarvis.8e8897a5e41a3d0a5a21.png",
+    "static/media/Bike-sale-analysis.png": "/Portfolio/static/media/Bike-sale-analysis.b449630a438d3378f914.png",
+    "static/media/heatmap.png": "/Portfolio/static/media/heatmap.490305ec78cf72dc1ce6.png",
     "static/media/primeicons.eot": "/Portfolio/static/media/primeicons.d44157bdfa026dc877af.eot",
     "static/media/primeicons.woff": "/Portfolio/static/media/primeicons.10d3152104f2208ac82a.woff",
     "static/media/primeicons.ttf": "/Portfolio/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
     "static/media/data2.png": "/Portfolio/static/media/data2.64ebcaf35dfbebdee1a5.png",
     "static/media/BinghamtonUniversity.jpg": "/Portfolio/static/media/BinghamtonUniversity.9cae43874275cdd03814.jpg",
+    "static/media/tbartens.jpg": "/Portfolio/static/media/tbartens.bc494ee10c3d77d43e85.jpg",
     "static/media/primeicons.woff2": "/Portfolio/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/ssikdar.jpg": "/Portfolio/static/media/ssikdar.d5349487f30ed5aa956a.jpg",
     "static/media/python.png": "/Portfolio/static/media/python.e8ec024706fae5971a47.png",
+    "static/media/pmadden.jpg": "/Portfolio/static/media/pmadden.f3b3fafa341c4324e38d.jpg",
+    "static/media/lander.jpg": "/Portfolio/static/media/lander.860fbb471b4c91014113.jpg",
     "static/media/juit_by_jaypeeit_dgafpv5-fullview.jpg": "/Portfolio/static/media/juit_by_jaypeeit_dgafpv5-fullview.dc3ed22df3d8aaaf4a3b.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.c1be8c45.css.map": "/Portfolio/static/css/main.c1be8c45.css.map",
-    "main.93115c51.js.map": "/Portfolio/static/js/main.93115c51.js.map"
+    "main.48dc857f.css.map": "/Portfolio/static/css/main.48dc857f.css.map",
+    "main.0185d375.js.map": "/Portfolio/static/js/main.0185d375.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1be8c45.css",
-    "static/js/main.93115c51.js"
+    "static/css/main.48dc857f.css",
+    "static/js/main.0185d375.js"
   ]
 }
