@@ -11,10 +11,10 @@ const JobTimeline = () =>{
                 <VerticalTimelineElement className='vertical-timeline-element'
                 iconStyle={{background:'rgb(0,0,0)', color:'#fff'}} 
                 icon={<FaBriefcase/>}
-                date = 'Jan 2024 - May 2024'
+                date = 'Jan 2024 - May 2025'
                 >
                 <h3 className='headTimeline'>Binghamton University </h3>
-                <p className='paraTimeline'>Graduate Assistant Machine Learning</p>
+                <p className='paraTimeline'>Graduate Assistant & Software Developer(Data)</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement className='vertical-timeline-element'
