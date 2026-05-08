@@ -1,17 +1,9 @@
-.PortfolioPage{
-    width: 100vw;
-    max-width: 90vw;
-    justify-content: center;
-    /* display: flex;
-    flex-wrap: wrap; */
-}
-
-.PortfolioWorkExp{
+.PortfolioWorkExp {
     width: 100%;
-    justify-content: center;
-    margin: 0 2rem;
+    max-width: 75rem;   /* SAME as navbar */
+    margin: 0 auto;
+    padding: 0 1rem;
 }
-
 
 #portfolioPageh1{
     width: 100%;

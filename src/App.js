@@ -8,6 +8,7 @@ import Footer from "./components/Footer/footer";
 import PortfolioPage from "./components/PortfolioPage/portfoliopage";
 import Projects from './components/Projects/projects';
 import MySkills from './components/MySkills/mySkills';
+import './App.css';
 
 import Education from "./components/Education/education";
 

@@ -59,13 +59,13 @@ const Education = () => {
                             <td>7.</td><td>Intro to Data Science (Independent Study)</td><td>Spring 2024</td><td>A</td>
                         </tr>
                         <tr>
-                            <td>8.</td><td>Design Patterns</td><td>Fall 2024</td><td>To be Graded</td>
+                            <td>8.</td><td>Design Patterns</td><td>Fall 2024</td><td>A</td>
                         </tr>
                         <tr>
-                            <td>9.</td><td>Social Media Data Science Pipeline</td><td>Fall 2024</td><td>To be Graded</td>
+                            <td>9.</td><td>Social Media Data Science Pipeline</td><td>Fall 2024</td><td>A</td>
                         </tr>
                         <tr>
-                            <td>10.</td><td>System Programming</td><td>Fall 2024</td><td>To be Graded</td>
+                            <td>10.</td><td>System Programming</td><td>Fall 2024</td><td>A</td>
                         </tr>
                         </tbody>
                     </table>

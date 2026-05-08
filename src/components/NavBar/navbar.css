@@ -1,7 +1,7 @@
 
 .navbar {
     height: 5rem;
-    width: 100vw;
+    width: 100%;
     max-width: 75rem;
     background: rgb(30,30,30);
     margin: 0 auto;
