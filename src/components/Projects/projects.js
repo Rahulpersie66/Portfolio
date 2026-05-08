@@ -1,6 +1,6 @@
 import './projects.css'
 import React, { useState, useEffect } from 'react';
-import PortfolioNavbar from '../PortfolioNavBar/portfolioNavbar'
+import PortfolioNavbar from '../NavBar/navbar'
 // import {Link} from 'react-scroll';
 import {Link as RouterLink} from 'react-router-dom';
 

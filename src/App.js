@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Navbar from "./components/NavBar/navbar";
 import Intro from "./components/Intro/intro";
 import Skills from './components/Skills/skills';
@@ -12,8 +12,24 @@ import './App.css';
 
 import Education from "./components/Education/education";
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
+function ScrollToHash() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    }
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   const [worksVisible, setWorksVisible] = useState(false);
@@ -25,6 +41,7 @@ function App() {
 
   return (
     <Router>  
+      <ScrollToHash />
       <div className="App" path="/Portfolio/">
         <Routes>
         <Route
